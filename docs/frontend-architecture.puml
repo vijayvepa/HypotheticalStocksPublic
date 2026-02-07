@@ -1,0 +1,104 @@
+@startuml Frontend Architecture Diagram
+!theme bluegray
+skinparam componentStyle rectangle
+skinparam linetype ortho
+skinparam arrowThickness 1
+skinparam linethickness 1
+skinparam arrowColor #D0D0D0
+skinparam lineColor #D0D0D0
+skinparam arrowFontColor #909090
+
+title Hypothetical Stocks - Frontend Architecture
+
+package "User Experience Layer" {
+  component [Standard UI\nPortfolio & Bills Management] as StandardUI #7986CB
+  component [Premium UI\nEnhanced Analytics & Visualizations] as PremiumUI #7986CB
+}
+
+package "Module Federation Host" {
+  component [Module Federation\nShared Component Loader] as ModuleFed #64B5F6
+}
+
+package "Shared Components" {
+  component [Portfolio Components\nStock List, Charts, Transactions] as PortfolioComponents #FF274D
+  component [Bills Components\nExpense List, Budget Views] as BillsComponents #FF274D
+  component [Common Components\nNavigation, Forms, Dialogs] as CommonComponents #FF274D
+}
+
+package "Service Layer" {
+  component [Portfolio Client Service\nREST API Communication] as PortfolioService #90A4AE
+  component [Bills Client Service\nREST API Communication] as BillsService #90A4AE
+  component [Auth Service\nKeycloak Integration] as AuthService #90A4AE
+  component [gRPC Client\nProgress Updates] as GrpcClient #90A4AE
+}
+
+package "State Management" {
+  component [RxJS Observables\nReactive Data Flow] as RxJS #90A4AE
+  component [HTTP Client\nAPI Requests] as HttpClient #90A4AE
+}
+
+package "UI Framework" {
+  component [Angular Framework\nComponent Lifecycle] as Angular #7986CB
+  component [PrimeNG Components\nRich UI Elements] as PrimeNG #7986CB
+  component [Tailwind CSS\nUtility Styling] as Tailwind #7986CB
+  component [Chart.js\nData Visualization] as ChartJS #7986CB
+}
+
+package "Backend Services" {
+  component [Portfolio API\nStock & Transaction Data] as PortfolioAPI #707070
+  component [Bills API\nExpense & Budget Data] as BillsAPI #707070
+  component [Keycloak\nAuthentication] as KeycloakAPI #707070
+}
+
+' User Experience to Module Federation
+StandardUI --> ModuleFed : Load Shared Components
+PremiumUI --> ModuleFed : Load Shared Components
+
+' Module Federation to Shared Components
+ModuleFed --> PortfolioComponents : Dynamic Loading
+ModuleFed --> BillsComponents : Dynamic Loading
+ModuleFed --> CommonComponents : Dynamic Loading
+
+' UI Applications to Components
+StandardUI --> PortfolioComponents : Uses
+StandardUI --> BillsComponents : Uses
+StandardUI --> CommonComponents : Uses
+
+PremiumUI --> PortfolioComponents : Uses
+PremiumUI --> BillsComponents : Uses
+PremiumUI --> CommonComponents : Uses
+
+' Components to Services
+PortfolioComponents --> PortfolioService : Data Requests
+BillsComponents --> BillsService : Data Requests
+CommonComponents --> AuthService : Authentication
+
+' Services to State Management
+PortfolioService --> RxJS : Observable Streams
+BillsService --> RxJS : Observable Streams
+AuthService --> RxJS : Observable Streams
+PortfolioService --> HttpClient : HTTP Calls
+BillsService --> HttpClient : HTTP Calls
+AuthService --> HttpClient : HTTP Calls
+
+' Services to Backend
+PortfolioService --> PortfolioAPI : REST API
+BillsService --> BillsAPI : REST API
+AuthService --> KeycloakAPI : OAuth2/OIDC
+
+' UI Framework
+StandardUI --> Angular : Built On
+PremiumUI --> Angular : Built On
+PortfolioComponents --> PrimeNG : UI Elements
+BillsComponents --> PrimeNG : UI Elements
+CommonComponents --> PrimeNG : UI Elements
+PortfolioComponents --> Tailwind : Styling
+BillsComponents --> Tailwind : Styling
+PortfolioComponents --> ChartJS : Charts
+PremiumUI --> ChartJS : Advanced Charts
+
+' gRPC for Progress Updates
+PortfolioService --> GrpcClient : Progress Streams
+GrpcClient --> PortfolioAPI : gRPC
+
+@enduml

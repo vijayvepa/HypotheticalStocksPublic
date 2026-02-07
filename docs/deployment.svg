@@ -1,0 +1,418 @@
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="1522.9167px" preserveAspectRatio="none" style="width:2041px;height:1522px;" version="1.1" viewBox="0 0 2041 1522" width="2041.6667px" zoomAndPan="magnify">
+    <title>Hypothetical Stocks - Deployment Architecture</title>
+    <defs>
+        <linearGradient id="g10ers1mxnqwby0" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F5F5F5"/>
+            <stop offset="100%" stop-color="#F2F2F2"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g class="title" data-source-line="10">
+            <rect fill="url(#g10ers1mxnqwby0)" height="54.4861" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="578.5339" x="727.0125" y="20.8333"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="549.3673" x="741.5958" y="56.3619">Hypothetical Stocks - Deployment Architecture</text>
+        </g><!--cluster DockerHost-->
+        <g class="cluster" data-entity="DockerHost" data-source-line="14" data-uid="ent0003" id="cluster_DockerHost">
+            <polygon fill="none" points="143.6183,103.4444,154.0349,93.0278,1594.6599,93.0278,1594.6599,1490.4236,1584.2433,1500.8403,143.6183,1500.8403,143.6183,103.4444" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <line style="stroke:#33B2E2;stroke-width:1.0417;" x1="1584.2433" x2="1594.6599" y1="103.4444" y2="93.0278"/>
+            <line style="stroke:#33B2E2;stroke-width:1.0417;" x1="143.6183" x2="1584.2433" y1="103.4444" y2="103.4444"/>
+            <line style="stroke:#33B2E2;stroke-width:1.0417;" x1="1584.2433" x2="1584.2433" y1="103.4444" y2="1500.8403"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="85.6445" x="822.1502" y="127.4699">Docker Host</text>
+        </g><!--cluster FrontendPkg-->
+        <g class="cluster" data-entity="FrontendPkg" data-source-line="17" data-uid="ent0005" id="cluster_FrontendPkg">
+            <path d="M1275.9099,174.2778 L1421.4198,174.2778 A15.625,15.625 0 0 1 1431.8364,184.6944 L1439.1281,212.3861 L1498.8266,212.3861 A10.4167,10.4167 0 0 1 1509.2433,222.8027 L1509.2433,671.1528 A10.4167,10.4167 0 0 1 1498.8266,681.5694 L1275.9099,681.5694 A10.4167,10.4167 0 0 1 1265.4933,671.1528 L1265.4933,184.6944 A10.4167,10.4167 0 0 1 1275.9099,174.2778" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="1265.4933" x2="1439.1281" y1="212.3861" y2="212.3861"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="143.4265" x="1277.9933" y="197.2616">Frontend Containers</text>
+        </g><!--cluster InfraPkg-->
+        <g class="cluster" data-entity="InfraPkg" data-source-line="27" data-uid="ent0011" id="cluster_InfraPkg">
+            <path d="M321.7433,526.3611 L504.0512,526.3611 A15.625,15.625 0 0 1 514.4679,536.7778 L521.7595,564.4694 L548.8266,564.4694 A10.4167,10.4167 0 0 1 559.2433,574.8861 L559.2433,1315.4236 A10.4167,10.4167 0 0 1 548.8266,1325.8403 L321.7433,1325.8403 A10.4167,10.4167 0 0 1 311.3266,1315.4236 L311.3266,536.7778 A10.4167,10.4167 0 0 1 321.7433,526.3611" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="311.3266" x2="521.7595" y1="564.4694" y2="564.4694"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="180.2246" x="323.8266" y="549.3449">Infrastructure Containers</text>
+        </g><!--cluster BackendPkg-->
+        <g class="cluster" data-entity="BackendPkg" data-source-line="41" data-uid="ent0021" id="cluster_BackendPkg">
+            <path d="M908.2016,526.3611 L1049.7991,526.3611 A15.625,15.625 0 0 1 1060.2158,536.7778 L1067.5074,564.4694 L1198.8266,564.4694 A10.4167,10.4167 0 0 1 1209.2433,574.8861 L1209.2433,1448.7569 A10.4167,10.4167 0 0 1 1198.8266,1459.1736 L908.2016,1459.1736 A10.4167,10.4167 0 0 1 897.7849,1448.7569 L897.7849,536.7778 A10.4167,10.4167 0 0 1 908.2016,526.3611" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="897.7849" x2="1067.5074" y1="564.4694" y2="564.4694"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="139.5142" x="910.2849" y="549.3449">Backend Containers</text>
+        </g><!--cluster MongoDB-->
+        <g class="cluster" data-entity="MongoDB" data-source-line="57" data-uid="ent0033" id="cluster_MongoDB">
+            <path d="M600.9099,1151.3611 C600.9099,1140.9444 728.5141,1140.9444 728.5141,1140.9444 C728.5141,1140.9444 856.1183,1140.9444 856.1183,1151.3611 L856.1183,1447.1944 C856.1183,1457.6111 728.5141,1457.6111 728.5141,1457.6111 C728.5141,1457.6111 600.9099,1457.6111 600.9099,1447.1944 L600.9099,1151.3611" fill="#7986CB" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <path d="M600.9099,1151.3611 C600.9099,1161.7778 728.5141,1161.7778 728.5141,1161.7778 C728.5141,1161.7778 856.1183,1161.7778 856.1183,1151.3611" fill="none" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="66.5527" x="695.2377" y="1184.7616">MongoDB</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="141.1926" x="657.9178" y="1199.9532">Document Database</text>
+        </g><!--cluster ExternalAPIs-->
+        <g class="cluster" data-entity="ExternalAPIs" data-source-line="65" data-uid="ent0037" id="cluster_ExternalAPIs">
+            <path d="M1653.9884,735.902 C1659.6447,724.1929 1670.4847,723.641 1678.8203,732.6981 C1686.3662,718.3151 1698.1219,720.302 1705.7302,732.6352 C1712.1657,719.8606 1721.4321,719.0651 1730.3745,730.0331 C1735.0338,718.0164 1744.7237,719.0366 1752.0348,727.1847 C1762.44,712.7109 1772.4991,715.5066 1781.3545,728.8199 C1786.438,716.9809 1796.6825,717.3838 1802.8846,727.7346 C1809.0861,715.3394 1820.1072,714.0281 1829.5211,723.8901 C1837.5629,713.654 1849.5436,714.2809 1854.3906,727.3057 C1862.1244,715.6079 1872.6384,713.879 1879.6785,727.9855 C1887.2494,713.7969 1896.6211,712.096 1906.2302,726.0634 C1915.4345,717.8223 1924.5502,719.6591 1929.7147,730.9265 C1938.0932,720.0241 1947.6988,719.66 1955.2016,731.8911 C1962.8991,718.6356 1971.6906,717.9865 1981.056,730.1978 C1991.7356,721.0744 2006.2253,723.056 2009.2433,738.8611 C2010.7974,739.3007 2010.9554,740.5945 2009.9528,741.6781 C2024.6092,748.6884 2023.1574,759.3658 2012.4158,768.6919 C2027.7426,776.8002 2025.5023,790.3599 2011.634,797.6809 C2025.5541,806.3037 2029.4339,820.4327 2012.652,830.0219 C2025.5433,844.0126 2022.0876,858.9159 2001.9516,861.7778 C2003.3502,859.9935 2004.6237,859.9606 2005.8369,861.9677 C2000.0477,875.9521 1985.9933,875.3309 1977.7477,864.7801 C1972.1389,875.7435 1963.1352,877.1307 1954.6763,868.0626 C1945.2705,878.9761 1937.0405,878.1679 1930.0029,865.5768 C1922.7352,878.8218 1911.7398,878.6013 1904.1592,865.8883 C1897.6536,877.8011 1889.5811,879.0733 1880.9359,868.0551 C1873.6595,879.7959 1863.5492,879.7023 1855.4782,868.9547 C1846.9125,881.7075 1837.9671,883.7865 1828.9754,869.3703 C1822.3535,879.8777 1812.4579,880.8236 1804.4747,871.0117 C1795.3997,883.0334 1784.9265,881.2503 1777.5186,869.149 C1770.5996,878.1432 1762.7221,878.0793 1756.6305,868.2318 C1747.5972,881.8323 1736.9697,879.1089 1729.6895,866.4343 C1720.4654,877.3234 1709.7603,877.5278 1702.82,863.9284 C1695.5936,877.8117 1686.8929,876.6784 1677.6153,866.0364 C1662.4731,876.7233 1649.8241,872.2683 1644.6599,854.4861 C1646.8532,855.3446 1646.8382,856.9444 1645.4447,858.5036 C1630.0837,852.0562 1627.0056,837.3384 1640.766,826.6179 C1625.999,820.1222 1625.7664,805.7074 1637.9759,796.6962 C1625.0282,785.6718 1624.92,775.5899 1641.387,768.0707 C1626.0642,751.4677 1631.2329,737.7409 1651.9516,731.5694 C1654.6916,731.7012 1655.5228,733.7609 1653.9884,735.902"
+                  fill="#E0E0E0" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="96.0144" x="1778.9444" y="757.6782">External APIs</text>
+        </g><!--cluster Registry-->
+        <g class="cluster" data-entity="Registry" data-source-line="70" data-uid="ent0040" id="cluster_Registry">
+            <path d="M1703.6692,338.1312 C1709.6635,330.5229 1717.6072,331.8275 1721.3877,340.5353 C1725.6706,332.386 1733.5306,329.9693 1739.3154,338.9648 C1743.8933,330.6193 1749.7259,330.143 1755.6433,337.579 C1760.9829,329.3672 1767.2625,328.5957 1773.6478,336.4036 C1780.2225,328.3475 1786.6583,327.4293 1792.9484,336.7202 C1798.1055,329.5907 1803.1883,327.3704 1809.3064,335.7034 C1813.3282,327.2861 1822.0623,325.5718 1827.0223,334.7593 C1833.1178,326.5581 1839.1056,325.7477 1846.2076,333.5528 C1851.9604,326.1036 1859.0063,326.4982 1862.7863,335.5364 C1869.167,326.8252 1875.1381,325.9925 1881.2693,335.7857 C1887.8262,329.0335 1893.7915,329.6471 1898.9946,337.4359 C1905.5691,329.2462 1911.7367,330.1333 1916.3806,339.3628 C1922.1375,328.6432 1929.7857,330.2102 1935.8524,339.0544 C1944.6769,330.7386 1956.0523,331.6702 1959.2433,345.1111 C1961.6308,344.247 1963.1642,345.1704 1962.7523,347.8687 C1972.6096,353.4637 1973.119,359.8687 1963.5784,366.3316 C1977.0995,369.4152 1977.9316,381.3336 1968.7171,389.467 C1980.1187,394.9855 1979.9373,402.6262 1971.1846,410.5083 C1977.3793,418.7378 1976.3116,425.3617 1965.7372,428.5195 C1975.1865,434.5744 1973.907,445.4567 1964.4956,450.4435 C1972.2075,464.8158 1966.8349,472.9249 1951.9516,476.3611 C1953.7434,476.5918 1954.5198,477.8093 1953.3606,479.4057 C1946.1514,487.4718 1939.3018,485.3728 1934.2724,476.8913 C1930.1282,485.4126 1921.4558,485.5545 1916.1504,478.2183 C1911.7383,487.9668 1906.2138,488.6338 1899.0241,480.9467 C1892.7637,488.7449 1887.4571,486.71 1882.922,479.1391 C1877.0759,489.6963 1870.537,490.0126 1862.7989,481.0939 C1858.0416,488.5521 1851.3832,488.2646 1846.3662,481.3916 C1841.1169,491.7579 1832.3195,490.7881 1826.6917,481.7758 C1821.9934,489.0541 1815.022,490.7432 1810.0321,482.0805 C1803.3925,489.5922 1796.9673,488.997 1793.419,479.1261 C1788.2318,489.0312 1780.5435,489.1949 1775.0621,479.4003 C1769.5063,486.4723 1761.547,485.895 1756.8819,478.2965 C1750.6847,487.6602 1744.7312,489.0729 1737.8328,478.9832 C1732.0935,486.8763 1725.0837,488.1207 1719.0917,479.2659 C1706.3148,489.8565 1695.9348,484.6115 1693.6183,469.0694 C1693.7779,468.8808 1693.9725,468.8623 1694.0994,469.1059 C1684.194,463.4227 1683.2465,457.4313 1692.2293,449.9082 C1682.847,445.0136 1682.3097,437.9087 1689.9642,430.9758 C1676.4417,428.3264 1674.7533,419.0327 1683.3646,409.5618 C1674.8632,400.6244 1678.3353,393.088 1689.1583,389.8225 C1678.0051,382.3215 1681.612,372.2044 1691.6422,367.0098 C1682.9456,353.7792 1684.329,343.0246 1700.9099,337.8194 C1701.8655,336.6302 1702.9948,336.8323 1703.6692,338.1312"
+                  fill="#E0E0E0" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="131.0913" x="1760.8851" y="363.9282">Container Registry</text>
+        </g><!--entity Network-->
+        <g class="entity" data-entity="Network" data-source-line="15" data-uid="ent0004" id="entity_Network">
+            <rect fill="#64B5F6" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="148.4904" x="1245.1808" y="1363.3403"/>
+            <polygon fill="#64B5F6" points="1375.9628,1368.5486,1375.9628,1383.1319,1388.4628,1383.1319,1388.4628,1374.7986,1382.2128,1368.5486,1375.9628,1368.5486" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1382.2128" x2="1382.2128" y1="1368.5486" y2="1374.7986"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1388.4628" x2="1382.2128" y1="1374.7986" y2="1374.7986"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1263.9308" y="1397.7824">Docker Network</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="60.1746" x="1263.9308" y="1412.974">vijayvepa</text>
+        </g><!--entity PortfolioUI-->
+        <g class="entity" data-entity="PortfolioUI" data-source-line="18" data-uid="ent0006" id="entity_PortfolioUI">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="124.8576" x="1329.0349" y="233.6528"/>
+            <polygon fill="#FF274D" points="1436.1842,238.8611,1436.1842,253.4444,1448.6842,253.4444,1448.6842,245.1111,1442.4342,238.8611,1436.1842,238.8611" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1442.4342" x2="1442.4342" y1="238.8611" y2="245.1111"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1448.6842" x2="1442.4342" y1="245.1111" y2="245.1111"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="69.0796" x="1347.7849" y="268.0949">portfolio-ui</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.9409" x="1347.7849" y="283.2865">Angular App</text>
+        </g><!--entity PrestigeUI-->
+        <g class="entity" data-entity="PrestigeUI" data-source-line="19" data-uid="ent0007" id="entity_PrestigeUI">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="185.2275" x="1298.8266" y="388.8611"/>
+            <polygon fill="#FF274D" points="1466.3457,394.0694,1466.3457,408.6528,1478.8457,408.6528,1478.8457,400.3194,1472.5957,394.0694,1466.3457,394.0694" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1472.5957" x2="1472.5957" y1="394.0694" y2="400.3194"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1478.8457" x2="1472.5957" y1="400.3194" y2="400.3194"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="125.4272" x="1317.5766" y="423.3032">portfolio-prestige-ui</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="137.3108" x="1317.5766" y="438.4949">Premium Angular App</text>
+        </g><!--entity ModFed-->
+        <g class="entity" data-entity="ModFed" data-source-line="20" data-uid="ent0008" id="entity_ModFed">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="163.5661" x="1320.1808" y="585.7361"/>
+            <polygon fill="#FF274D" points="1466.0385,590.9444,1466.0385,605.5278,1478.5385,605.5278,1478.5385,597.1944,1472.2885,590.9444,1466.0385,590.9444" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1472.2885" x2="1472.2885" y1="590.9444" y2="597.1944"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1478.5385" x2="1472.2885" y1="597.1944" y2="597.1944"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="47.1619" x="1338.9308" y="620.1782">modfed</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="115.6494" x="1338.9308" y="635.3699">Module Federation</text>
+        </g><!--entity Nginx-->
+        <g class="entity" data-entity="Nginx" data-source-line="28" data-uid="ent0012" id="entity_Nginx">
+            <rect fill="#E0E0E0" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="137.8398" x="396.7433" y="585.7361"/>
+            <polygon fill="#E0E0E0" points="516.8747,590.9444,516.8747,605.5278,529.3747,605.5278,529.3747,597.1944,523.1247,590.9444,516.8747,590.9444" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="523.1247" x2="523.1247" y1="590.9444" y2="597.1944"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="529.3747" x2="523.1247" y1="597.1944" y2="597.1944"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="34.436" x="415.4933" y="620.1782">nginx</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="89.9231" x="415.4933" y="635.3699">Reverse Proxy</text>
+        </g><!--entity Envoy-->
+        <g class="entity" data-entity="Envoy" data-source-line="29" data-uid="ent0013" id="entity_Envoy">
+            <rect fill="#E0E0E0" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="130.8268" x="402.9933" y="778.4444"/>
+            <polygon fill="#E0E0E0" points="516.1117,783.6528,516.1117,798.2361,528.6117,798.2361,528.6117,789.9028,522.3617,783.6528,516.1117,783.6528" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="522.3617" x2="522.3617" y1="783.6528" y2="789.9028"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="528.6117" x2="522.3617" y1="789.9028" y2="789.9028"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="37.738" x="421.7433" y="812.8866">envoy</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="82.9102" x="421.7433" y="828.0782">Service Mesh</text>
+        </g><!--entity Keycloak-->
+        <g class="entity" data-entity="Keycloak" data-source-line="30" data-uid="ent0014" id="entity_Keycloak">
+            <rect fill="#E0E0E0" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="153.2511" x="380.5974" y="911.7778"/>
+            <polygon fill="#E0E0E0" points="516.1402,916.9861,516.1402,931.5694,528.6402,931.5694,528.6402,923.2361,522.3902,916.9861,516.1402,916.9861" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="522.3902" x2="522.3902" y1="916.9861" y2="923.2361"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="528.6402" x2="522.3902" y1="923.2361" y2="923.2361"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="54.6753" x="399.3474" y="946.2199">keycloak</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="105.3345" x="399.3474" y="961.4115">Identity Provider</text>
+        </g><!--entity Airflow-->
+        <g class="entity" data-entity="Airflow" data-source-line="31" data-uid="ent0015" id="entity_Airflow">
+            <rect fill="#E0E0E0" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="189.799" x="344.6599" y="1045.1111"/>
+            <polygon fill="#E0E0E0" points="516.7506,1050.3194,516.7506,1064.9028,529.2506,1064.9028,529.2506,1056.5694,523.0006,1050.3194,516.7506,1050.3194" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="523.0006" x2="523.0006" y1="1050.3194" y2="1056.5694"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="529.2506" x2="523.0006" y1="1056.5694" y2="1056.5694"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="41.9128" x="363.4099" y="1079.5532">airflow</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="141.8823" x="363.4099" y="1094.7449">Workflow Orchestrator</text>
+        </g><!--entity Vault-->
+        <g class="entity" data-entity="Vault" data-source-line="32" data-uid="ent0016" id="entity_Vault">
+            <rect fill="#E0E0E0" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="153.0619" x="362.8891" y="1230.0069"/>
+            <polygon fill="#E0E0E0" points="498.2427,1235.2153,498.2427,1249.7986,510.7427,1249.7986,510.7427,1241.4653,504.4927,1235.2153,498.2427,1235.2153" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="504.4927" x2="504.4927" y1="1235.2153" y2="1241.4653"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="510.7427" x2="504.4927" y1="1241.4653" y2="1241.4653"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="31.1707" x="381.6391" y="1264.4491">vault</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="105.1453" x="381.6391" y="1279.6407">Secrets Manager</text>
+        </g><!--entity PortfolioSvc-->
+        <g class="entity" data-entity="PortfolioSvc" data-source-line="42" data-uid="ent0022" id="entity_PortfolioSvc">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="149.7355" x="922.7849" y="585.7361"/>
+            <polygon fill="#FF274D" points="1054.8121,590.9444,1054.8121,605.5278,1067.3121,605.5278,1067.3121,597.1944,1061.0621,590.9444,1054.8121,590.9444" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1061.0621" x2="1061.0621" y1="590.9444" y2="597.1944"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1067.3121" x2="1061.0621" y1="597.1944" y2="597.1944"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="101.8188" x="941.5349" y="620.1782">portfolio-service</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.8586" x="941.5349" y="635.3699">Spring Boot</text>
+        </g><!--entity BillsSvc-->
+        <g class="entity" data-entity="BillsSvc" data-source-line="43" data-uid="ent0023" id="entity_BillsSvc">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="122.2636" x="927.4724" y="778.4444"/>
+            <polygon fill="#FF274D" points="1032.0277,783.6528,1032.0277,798.2361,1044.5277,798.2361,1044.5277,789.9028,1038.2777,783.6528,1032.0277,783.6528" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1038.2777" x2="1038.2777" y1="783.6528" y2="789.9028"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1044.5277" x2="1038.2777" y1="789.9028" y2="789.9028"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="74.3469" x="946.2224" y="812.8866">bills-service</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.8586" x="946.2224" y="828.0782">Spring Boot</text>
+        </g><!--entity LoansSvc-->
+        <g class="entity" data-entity="LoansSvc" data-source-line="44" data-uid="ent0024" id="entity_LoansSvc">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="130.6193" x="923.3058" y="911.7778"/>
+            <polygon fill="#FF274D" points="1036.2167,916.9861,1036.2167,931.5694,1048.7167,931.5694,1048.7167,923.2361,1042.4667,916.9861,1036.2167,916.9861" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1042.4667" x2="1042.4667" y1="916.9861" y2="923.2361"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1048.7167" x2="1042.4667" y1="923.2361" y2="923.2361"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="82.7026" x="942.0558" y="946.2199">loans-service</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.8586" x="942.0558" y="961.4115">Spring Boot</text>
+        </g><!--entity HouseSvc-->
+        <g class="entity" data-entity="HouseSvc" data-source-line="45" data-uid="ent0025" id="entity_HouseSvc">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="213.0412" x="923.3058" y="1045.1111"/>
+            <polygon fill="#FF274D" points="1118.6386,1050.3194,1118.6386,1064.9028,1131.1386,1064.9028,1131.1386,1056.5694,1124.8886,1050.3194,1118.6386,1050.3194" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1124.8886" x2="1124.8886" y1="1050.3194" y2="1056.5694"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1131.1386" x2="1124.8886" y1="1056.5694" y2="1056.5694"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="165.1245" x="942.0558" y="1079.5532">house-comparison-service</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.8586" x="942.0558" y="1094.7449">Spring Boot</text>
+        </g><!--entity ProfileSvc-->
+        <g class="entity" data-entity="ProfileSvc" data-source-line="46" data-uid="ent0026" id="entity_ProfileSvc">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="137.0829" x="941.5349" y="1230.0069"/>
+            <polygon fill="#FF274D" points="1060.9095,1235.2153,1060.9095,1249.7986,1073.4095,1249.7986,1073.4095,1241.4653,1067.1595,1235.2153,1060.9095,1235.2153" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1067.1595" x2="1067.1595" y1="1235.2153" y2="1241.4653"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1073.4095" x2="1067.1595" y1="1241.4653" y2="1241.4653"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="89.1663" x="960.2849" y="1264.4491">profile-service</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.8586" x="960.2849" y="1279.6407">Spring Boot</text>
+        </g><!--entity StockScraper-->
+        <g class="entity" data-entity="StockScraper" data-source-line="47" data-uid="ent0027" id="entity_StockScraper">
+            <rect fill="#FF274D" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="132.9631" x="992.5766" y="1363.3403"/>
+            <polygon fill="#FF274D" points="1107.8313,1368.5486,1107.8313,1383.1319,1120.3313,1383.1319,1120.3313,1374.7986,1114.0813,1368.5486,1107.8313,1368.5486" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1114.0813" x2="1114.0813" y1="1368.5486" y2="1374.7986"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1120.3313" x2="1114.0813" y1="1374.7986" y2="1374.7986"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="85.0464" x="1011.3266" y="1397.7824">stock-scraper</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="47.5342" x="1011.3266" y="1412.974">Node.js</text>
+        </g><!--entity TimeSeries-->
+        <g class="entity" data-entity="TimeSeries" data-source-line="58" data-uid="ent0034" id="entity_TimeSeries">
+            <rect fill="#64B5F6" height="67.8833" rx="36.4583" ry="36.4583" style="stroke:#EA7400;stroke-width:1.0417;" width="184.5215" x="626.4308" y="1231.5694"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="147.0215" x="645.1808" y="1262.8866">Time-Series Collections</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="118.5974" x="645.1808" y="1278.0782">Stock Price History</text>
+        </g><!--entity Documents-->
+        <g class="entity" data-entity="Documents" data-source-line="59" data-uid="ent0035" id="entity_Documents">
+            <rect fill="#64B5F6" height="67.8833" rx="36.4583" ry="36.4583" style="stroke:#EA7400;stroke-width:1.0417;" width="184.7107" x="626.4308" y="1364.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="135.9741" x="645.1808" y="1396.2199">Document Collections</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="147.2107" x="645.1808" y="1411.4115">Transactions, Expenses</text>
+        </g><!--entity MarketStack-->
+        <g class="entity" data-entity="MarketStack" data-source-line="66" data-uid="ent0038" id="entity_MarketStack">
+            <path d="M1831.1183,793.0278 C1831.1183,782.6111 1901.7542,782.6111 1901.7542,782.6111 C1901.7542,782.6111 1972.3902,782.6111 1972.3902,793.0278 L1972.3902,834.2611 C1972.3902,844.6777 1901.7542,844.6777 1901.7542,844.6777 C1901.7542,844.6777 1831.1183,844.6777 1831.1183,834.2611 L1831.1183,793.0278" fill="#90A4AE" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <path d="M1831.1183,793.0278 C1831.1183,803.4444 1901.7542,803.4444 1901.7542,803.4444 C1901.7542,803.4444 1972.3902,803.4444 1972.3902,793.0278" fill="none" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.772" x="1849.8683" y="828.5116">MarketStack API</text>
+        </g><!--entity RealStonks-->
+        <g class="entity" data-entity="RealStonks" data-source-line="67" data-uid="ent0039" id="entity_RealStonks">
+            <path d="M1661.3266,793.0278 C1661.3266,782.6111 1727.9221,782.6111 1727.9221,782.6111 C1727.9221,782.6111 1794.5175,782.6111 1794.5175,793.0278 L1794.5175,834.2611 C1794.5175,844.6777 1727.9221,844.6777 1727.9221,844.6777 C1727.9221,844.6777 1661.3266,844.6777 1661.3266,834.2611 L1661.3266,793.0278" fill="#90A4AE" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <path d="M1661.3266,793.0278 C1661.3266,803.4444 1727.9221,803.4444 1727.9221,803.4444 C1727.9221,803.4444 1794.5175,803.4444 1794.5175,793.0278" fill="none" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.6909" x="1680.0766" y="828.5116">RealStonks API</text>
+        </g><!--entity GHCR-->
+        <g class="entity" data-entity="GHCR" data-source-line="71" data-uid="ent0041" id="entity_GHCR">
+            <rect fill="#90A4AE" height="71.0083" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="212.1501" x="1730.0766" y="388.8611"/>
+            <polygon fill="#90A4AE" points="1924.5183,394.0694,1924.5183,408.6528,1937.0183,408.6528,1937.0183,400.3194,1930.7683,394.0694,1924.5183,394.0694" style="stroke:#C2C2C2;stroke-width:1.0417;"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1930.7683" x2="1930.7683" y1="394.0694" y2="400.3194"/>
+            <line style="stroke:#C2C2C2;stroke-width:1.0417;" x1="1937.0183" x2="1930.7683" y1="400.3194" y2="400.3194"/>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.5051" x="1748.8266" y="423.3032">GHCR</text>
+            <text fill="#5A5A5A" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="164.2334" x="1748.8266" y="438.4949">GitHub Container Registry</text>
+        </g><!--entity Internet-->
+        <g class="entity" data-entity="Internet" data-source-line="12" data-uid="ent0002" id="entity_Internet">
+            <path d="M28.4445,402.1704 C31.1999,396.0301 37.4026,394.9826 41.7752,400.2865 C44.4762,392.8908 50.9183,393.191 55.2337,398.588 C59.5315,392.7209 64.8039,391.8052 69.2878,398.3778 C73.256,391.9584 78.6964,391.5932 82.8285,398.2076 C88.0451,391.3596 94.5436,392.8834 96.8832,400.9235 C100.7128,393.7306 107.81,393.128 111.5472,401.0133 C118.9081,404.4231 118.7434,409.4008 113.167,414.3785 C118.5106,416.0814 118.982,420.973 115.0712,424.4293 C121.0237,429.8157 119.1604,434.9169 112.2942,437.6006 C115.9939,441.6425 115.7851,445.2496 110.3342,447.4751 C107.9779,455.3572 102.2915,455.9847 96.6952,450.8771 C95.1129,458.0437 89.8879,460.76 83.7907,455.606 C80.9439,461.8238 74.8317,463.664 70.2939,457.4403 C64.206,463.1823 59.673,463.0729 55.7587,455.1313 C49.6772,459.9292 44.7503,458.8492 43.2493,450.7042 C37.5557,456.4806 30.9431,456.8412 27.7792,448.0227 C22.1754,445.6429 19.8152,441.4067 25.1407,436.5199 C18.4195,436.0157 17.7994,431.0776 20.5953,426.3286 C16.6667,420.7699 18.4025,416.3026 24.8242,414.4191 C20.3366,409.2062 20.9956,403.8552 28.4445,402.1704"
+                  fill="#E0E0E0" style="stroke:#F2FCFE;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="51.1597" x="43.0974" y="429.0324">Internet</text>
+        </g><!--link PortfolioUI to PrestigeUI--><!--link PrestigeUI to ModFed--><!--link Nginx to Envoy--><!--link Nginx to Envoy-->
+        <g class="link" data-entity-1="Nginx" data-entity-2="Envoy" data-source-line="79" data-uid="lnk44" id="link_Nginx_Envoy">
+            <path d="M429.2433,656.9444 C429.2433,691.559 429.2433,737.4548 429.2433,772.0069" fill="none" id="Nginx-to-Envoy-1" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="429.2433,778.2569,433.4099,768.8819,429.2433,773.0486,425.0766,768.8819,429.2433,778.2569" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="387.5766" y="706.2095">HTTP</text>
+        </g><!--link Envoy to Keycloak--><!--link Keycloak to Airflow--><!--link Airflow to Vault--><!--link PortfolioSvc to BillsSvc--><!--link BillsSvc to LoansSvc--><!--link LoansSvc to HouseSvc--><!--link HouseSvc to ProfileSvc--><!--link ProfileSvc to StockScraper--><!--link TimeSeries to Documents--><!--link Internet to Nginx-->
+        <g class="link" data-entity-1="Internet" data-entity-2="Nginx" data-source-line="75" data-uid="lnk42" id="link_Internet_Nginx">
+            <path d="M68.6183,456.2153 C68.6183,507.6007 68.6183,602.9236 68.6183,602.9236 C68.6183,602.9236 276.4099,602.9236 390.1078,602.9236" fill="none" id="Internet-to-Nginx" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="396.3578,602.9236,386.9828,598.7569,391.1495,602.9236,386.9828,607.0903,396.3578,602.9236" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="110.2478" x="40.3891" y="591.5324">HTTPS (Port 443)</text>
+        </g><!--link Internet to Keycloak-->
+        <g class="link" data-entity-1="Internet" data-entity-2="Keycloak" data-source-line="76" data-uid="lnk43" id="link_Internet_Keycloak">
+            <path d="M118.2745,440.4236 C208.1703,440.4236 388.6703,440.4236 388.6703,440.4236 C388.6703,440.4236 388.6703,789.9548 388.6703,905.309" fill="none" id="Internet-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="388.6703,911.559,392.837,902.184,388.6703,906.3507,384.5037,902.184,388.6703,911.559" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="86.2122" x="293.8787" y="529.4074">OAuth2/OIDC</text>
+        </g><!--link Envoy to PortfolioSvc-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="PortfolioSvc" data-source-line="80" data-uid="lnk45" id="link_Envoy_PortfolioSvc">
+            <path d="M534.3578,787.2986 C602.8162,787.2986 700.1808,787.2986 700.1808,787.2986 C700.1808,787.2986 700.1808,610.2153 700.1808,610.2153 C700.1808,610.2153 828.2745,610.2153 916.4412,610.2153" fill="none" id="Envoy-to-PortfolioSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="922.6912,610.2153,913.3162,606.0486,917.4828,610.2153,913.3162,614.3819,922.6912,610.2153" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="658.5141" y="659.022">HTTP</text>
+        </g><!--link Envoy to BillsSvc-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="BillsSvc" data-source-line="81" data-uid="lnk46" id="link_Envoy_BillsSvc">
+            <path d="M534.4516,794.5903 C635.7953,794.5903 822.3787,794.5903 920.8995,794.5903" fill="none" id="Envoy-to-BillsSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="927.1495,794.5903,917.7745,790.4236,921.9412,794.5903,917.7745,798.7569,927.1495,794.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="689.1287" y="783.1991">HTTP</text>
+        </g><!--link Envoy to LoansSvc-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="LoansSvc" data-source-line="82" data-uid="lnk47" id="link_Envoy_LoansSvc">
+            <path d="M534.4933,818.5486 C624.2433,818.5486 773.9308,818.5486 773.9308,818.5486 C773.9308,818.5486 773.9308,938.3403 773.9308,938.3403 C773.9308,938.3403 853.837,938.3403 916.9308,938.3403" fill="none" id="Envoy-to-LoansSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="923.1808,938.3403,913.8058,934.1736,917.9724,938.3403,913.8058,942.5069,923.1808,938.3403" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="732.2641" y="821.9595">HTTP</text>
+        </g><!--link Envoy to HouseSvc-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="HouseSvc" data-source-line="83" data-uid="lnk48" id="link_Envoy_HouseSvc">
+            <path d="M534.2641,825.8403 C590.7745,825.8403 663.3058,825.8403 663.3058,825.8403 C663.3058,825.8403 663.3058,1088.3403 663.3058,1088.3403 C663.3058,1088.3403 808.4933,1088.3403 916.7537,1088.3403" fill="none" id="Envoy-to-HouseSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="923.0037,1088.3403,913.6287,1084.1736,917.7953,1088.3403,913.6287,1092.5069,923.0037,1088.3403" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="621.6391" y="1011.022">HTTP</text>
+        </g><!--link Envoy to ProfileSvc-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="ProfileSvc" data-source-line="84" data-uid="lnk49" id="link_Envoy_ProfileSvc">
+            <path d="M534.5558,810.2153 C658.1287,810.2153 912.2224,810.2153 912.2224,810.2153 C912.2224,810.2153 912.2224,1242.5069 912.2224,1242.5069 C912.2224,1242.5069 918.7745,1242.5069 935.1287,1242.5069" fill="none" id="Envoy-to-ProfileSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="941.3787,1242.5069,932.0037,1238.3403,936.1703,1242.5069,932.0037,1246.6736,941.3787,1242.5069" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="870.5558" y="840.7095">HTTP</text>
+        </g><!--link PortfolioUI to Nginx-->
+        <g class="link" data-entity-1="PortfolioUI" data-entity-2="Nginx" data-source-line="87" data-uid="lnk50" id="link_PortfolioUI_Nginx">
+            <path d="M1328.8995,282.0903 C1117.3683,282.0903 442.5766,282.0903 442.5766,282.0903 C442.5766,282.0903 442.5766,492.2048 442.5766,579.2569" fill="none" id="PortfolioUI-to-Nginx" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="442.5766,585.5069,446.7433,576.1319,442.5766,580.2986,438.4099,576.1319,442.5766,585.5069" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="692.3683" y="270.6991">HTTP</text>
+        </g><!--link PrestigeUI to Nginx-->
+        <g class="link" data-entity-1="PrestigeUI" data-entity-2="Nginx" data-source-line="88" data-uid="lnk51" id="link_PrestigeUI_Nginx">
+            <path d="M1298.712,424.7986 C1068.2433,424.7986 488.4099,424.7986 488.4099,424.7986 C488.4099,424.7986 488.4099,522.7569 488.4099,579.3403" fill="none" id="PrestigeUI-to-Nginx" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="488.4099,585.5903,492.5766,576.2153,488.4099,580.3819,484.2433,576.2153,488.4099,585.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="771.4933" y="413.4074">HTTP</text>
+        </g><!--link ModFed to Nginx-->
+        <g class="link" data-entity-1="ModFed" data-entity-2="Nginx" data-source-line="89" data-uid="lnk52" id="link_ModFed_Nginx">
+            <path d="M1344.837,656.684 C1344.837,669.5798 1344.837,681.0486 1344.837,681.0486 C1344.837,681.0486 507.9933,681.0486 507.9933,681.0486 C507.9933,681.0486 507.9933,675.8298 507.9933,662.934" fill="none" id="ModFed-to-Nginx" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="507.9933,656.684,503.8266,666.059,507.9933,661.8923,512.1599,666.059,507.9933,656.684" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.3364" x="884.7433" y="702.9907">HTTP</text>
+        </g><!--link PortfolioSvc to MongoDB-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="MongoDB" data-source-line="92" data-uid="lnk53" id="link_PortfolioSvc_MongoDB">
+            <path d="M922.5245,645.6319 C899.6912,645.6319 880.5245,645.6319 880.5245,645.6319 C880.5245,645.6319 880.5245,1265.4236 880.5245,1265.4236 C880.5245,1265.4236 873.8032,1265.4236 866.4516,1265.4236 C864.6137,1265.4236 862.7364,1265.4236 860.9149,1265.4236 C860.0042,1265.4236 859.1074,1265.4236 858.2364,1265.4236 C857.801,1265.4236 857.3719,1265.4236 856.9509,1265.4236 C856.7403,1265.4236 856.5318,1265.4236 856.3254,1265.4236 C856.2738,1265.4236 862.4724,1265.4236 862.421,1265.4236"
+                  fill="none" id="PortfolioSvc-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="856.171,1265.4236,865.546,1269.5903,861.3794,1265.4236,865.546,1261.2569,856.171,1265.4236" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3257" x="803.962" y="972.4282">Reactive Driver</text>
+        </g><!--link BillsSvc to MongoDB-->
+        <g class="link" data-entity-1="BillsSvc" data-entity-2="MongoDB" data-source-line="93" data-uid="lnk54" id="link_BillsSvc_MongoDB">
+            <path d="M927.3995,834.1736 C889.2953,834.1736 847.4412,834.1736 847.4412,834.1736 C847.4412,834.1736 847.4412,938.6423 847.4412,1044.7439 C847.4412,1071.2693 847.4412,1097.8967 847.4412,1123.0194 C847.4412,1126.1597 847.4412,1129.2766 847.4412,1132.3667 C847.4412,1133.9118 847.4412,1135.4503 847.4412,1136.9816 C847.4412,1137.7473 847.4412,1132.2612 847.4412,1133.0233" fill="none" id="BillsSvc-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="847.4412,1139.2733,851.6078,1129.8983,847.4412,1134.065,843.2745,1129.8983,847.4412,1139.2733" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3257" x="742.2328" y="1031.6053">Reactive Driver</text>
+        </g><!--link LoansSvc to MongoDB-->
+        <g class="link" data-entity-1="LoansSvc" data-entity-2="MongoDB" data-source-line="94" data-uid="lnk55" id="link_LoansSvc_MongoDB">
+            <path d="M922.9516,973.7569 C876.6599,973.7569 822.7849,973.7569 822.7849,973.7569 C822.7849,973.7569 822.7849,1046.934 822.7849,1120.1111 C822.7849,1124.6847 822.7849,1129.2582 822.7849,1133.8139 C822.7849,1136.0918 822.7849,1132.1152 822.7849,1134.3818" fill="none" id="LoansSvc-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="822.7849,1140.6318,826.9516,1131.2568,822.7849,1135.4235,818.6183,1131.2568,822.7849,1140.6318" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3257" x="717.5766" y="1071.1053">Reactive Driver</text>
+        </g><!--link HouseSvc to MongoDB-->
+        <g class="link" data-entity-1="HouseSvc" data-entity-2="MongoDB" data-source-line="95" data-uid="lnk56" id="link_HouseSvc_MongoDB">
+            <path d="M923.1912,1101.8819 C883.587,1101.8819 848.1287,1101.8819 848.1287,1101.8819 C848.1287,1101.8819 848.1287,1111.4744 848.1287,1126.0129 C848.1287,1129.6476 848.1287,1133.5914 848.1287,1137.7717 C848.1287,1138.2942 848.1287,1138.8204 848.1287,1139.3502 C848.1287,1139.6151 848.1287,1133.6309 848.1287,1133.8976" fill="none" id="HouseSvc-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="848.1287,1140.1476,852.2953,1130.7726,848.1287,1134.9392,843.962,1130.7726,848.1287,1140.1476" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3257" x="857.5037" y="1167.8345">Reactive Driver</text>
+        </g><!--link ProfileSvc to MongoDB-->
+        <g class="link" data-entity-1="ProfileSvc" data-entity-2="MongoDB" data-source-line="96" data-uid="lnk57" id="link_ProfileSvc_MongoDB">
+            <path d="M941.3683,1266.4653 C919.9151,1266.4653 897.2875,1266.4653 879.6573,1266.4653 C870.8422,1266.4653 863.2765,1266.4653 857.7315,1266.4653 C857.385,1266.4653 857.0463,1266.4653 856.7157,1266.4653 C856.5504,1266.4653 862.6372,1266.4653 862.476,1266.4653" fill="none" id="ProfileSvc-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="856.226,1266.4653,865.601,1270.6319,861.4343,1266.4653,865.601,1262.2986,856.226,1266.4653" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3257" x="818.087" y="1288.4074">Reactive Driver</text>
+        </g><!--link PortfolioSvc to MarketStack-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="MarketStack" data-source-line="99" data-uid="lnk58" id="link_PortfolioSvc_MarketStack">
+            <path d="M1059.9412,656.7986 C1059.9412,688.5382 1059.9412,730.0069 1059.9412,730.0069 C1059.9412,730.0069 1886.8474,730.0069 1886.8474,730.0069 C1886.8474,730.0069 1886.8474,752.1632 1886.8474,775.9132" fill="none" id="PortfolioSvc-to-MarketStack" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1886.8474,782.1632,1891.0141,772.7882,1886.8474,776.9548,1882.6808,772.7882,1886.8474,782.1632" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.5815" x="1395.1599" y="718.6157">REST API</text>
+        </g><!--link PortfolioSvc to RealStonks-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="RealStonks" data-source-line="100" data-uid="lnk59" id="link_PortfolioSvc_RealStonks">
+            <path d="M1066.3578,656.8298 C1066.3578,710.0382 1066.3578,803.9653 1066.3578,803.9653 C1066.3578,803.9653 1486.9724,803.9653 1654.9724,803.9653" fill="none" id="PortfolioSvc-to-RealStonks" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1661.2224,803.9653,1651.8474,799.7986,1656.0141,803.9653,1651.8474,808.1319,1661.2224,803.9653" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.5815" x="1299.5974" y="792.5741">REST API</text>
+        </g><!--link PortfolioSvc to StockScraper-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="StockScraper" data-source-line="101" data-uid="lnk60" id="link_PortfolioSvc_StockScraper">
+            <path d="M1073.0974,645.6319 C1118.7953,645.6319 1168.3578,645.6319 1168.3578,645.6319 C1168.3578,645.6319 1168.3578,1387.2986 1168.3578,1387.2986 C1168.3578,1387.2986 1155.0037,1387.2986 1132.4203,1387.2986" fill="none" id="PortfolioSvc-to-StockScraper" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1126.1703,1387.2986,1135.5453,1391.4653,1131.3787,1387.2986,1135.5453,1383.1319,1126.1703,1387.2986" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.5815" x="1177.7328" y="978.5324">REST API</text>
+        </g><!--link PortfolioSvc to Keycloak-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="Keycloak" data-source-line="104" data-uid="lnk61" id="link_PortfolioSvc_Keycloak">
+            <path d="M922.6912,633.1319 C894.8683,633.1319 869.962,633.1319 869.962,633.1319 C869.962,633.1319 869.962,920.6319 869.962,920.6319 C869.962,920.6319 659.462,920.6319 540.087,920.6319" fill="none" id="PortfolioSvc-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="533.837,920.6319,543.212,924.7986,539.0453,920.6319,543.212,916.4653,533.837,920.6319" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.2156" x="783.5037" y="907.1886">OAuth2 JWT</text>
+        </g><!--link BillsSvc to Keycloak-->
+        <g class="link" data-entity-1="BillsSvc" data-entity-2="Keycloak" data-source-line="105" data-uid="lnk62" id="link_BillsSvc_Keycloak">
+            <path d="M927.212,841.4653 C912.8578,841.4653 901.6495,841.4653 901.6495,841.4653 C901.6495,841.4653 901.6495,930.0069 901.6495,930.0069 C901.6495,930.0069 667.5453,930.0069 540.3266,930.0069" fill="none" id="BillsSvc-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="534.0766,930.0069,543.4516,934.1736,539.2849,930.0069,543.4516,925.8403,534.0766,930.0069" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.2156" x="688.462" y="951.9491">OAuth2 JWT</text>
+        </g><!--link LoansSvc to Keycloak-->
+        <g class="link" data-entity-1="LoansSvc" data-entity-2="Keycloak" data-source-line="106" data-uid="lnk63" id="link_LoansSvc_Keycloak">
+            <path d="M923.2641,947.7153 C824.9099,947.7153 645.1183,947.7153 540.2641,947.7153" fill="none" id="LoansSvc-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="534.0141,947.7153,543.3891,951.8819,539.2224,947.7153,543.3891,943.5486,534.0141,947.7153" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.2156" x="642.1808" y="969.6574">OAuth2 JWT</text>
+        </g><!--link HouseSvc to Keycloak-->
+        <g class="link" data-entity-1="HouseSvc" data-entity-2="Keycloak" data-source-line="107" data-uid="lnk64" id="link_HouseSvc_Keycloak">
+            <path d="M922.9724,1073.7569 C904.4933,1073.7569 891.087,1073.7569 891.087,1073.7569 C891.087,1073.7569 891.087,956.0486 891.087,956.0486 C891.087,956.0486 664.5662,956.0486 539.9933,956.0486" fill="none" id="HouseSvc-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="533.7433,956.0486,543.1183,960.2153,538.9516,956.0486,543.1183,951.8819,533.7433,956.0486" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.2156" x="796.587" y="944.6574">OAuth2 JWT</text>
+        </g><!--link ProfileSvc to Keycloak-->
+        <g class="link" data-entity-1="ProfileSvc" data-entity-2="Keycloak" data-source-line="108" data-uid="lnk65" id="link_ProfileSvc_Keycloak">
+            <path d="M941.462,1253.9653 C901.6703,1253.9653 859.3891,1253.9653 859.3891,1253.9653 C859.3891,1253.9653 859.3891,965.4236 859.3891,965.4236 C859.3891,965.4236 656.7224,965.4236 540.0141,965.4236" fill="none" id="ProfileSvc-to-Keycloak" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="533.7641,965.4236,543.1391,969.5903,538.9724,965.4236,543.1391,961.2569,533.7641,965.4236" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.2156" x="868.7641" y="1009.8553">OAuth2 JWT</text>
+        </g><!--link Airflow to MongoDB-->
+        <g class="link" data-entity-1="Airflow" data-entity-2="MongoDB" data-source-line="110" data-uid="lnk66" id="link_Airflow_MongoDB">
+            <path d="M525.1287,1116.0382 C525.1287,1185.3819 525.1287,1332.0903 525.1287,1332.0903 C525.1287,1332.0903 545.2732,1332.0903 575.49,1332.0903 C583.0442,1332.0903 584.9779,1332.0903 593.6338,1332.0903" fill="none" id="Airflow-to-MongoDB" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="599.8838,1332.0903,590.5088,1327.9236,594.6754,1332.0903,590.5088,1336.2569,599.8838,1332.0903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="121.3684" x="481.2849" y="1354.0324">Scheduled Backups</text>
+        </g><!--link Airflow to PortfolioSvc-->
+        <g class="link" data-entity-1="Airflow" data-entity-2="PortfolioSvc" data-source-line="111" data-uid="lnk67" id="link_Airflow_PortfolioSvc">
+            <path d="M534.4308,1060.2153 C621.5245,1060.2153 737.0558,1060.2153 737.0558,1060.2153 C737.0558,1060.2153 737.0558,621.6736 737.0558,621.6736 C737.0558,621.6736 839.4516,621.6736 916.4724,621.6736" fill="none" id="Airflow-to-PortfolioSvc" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="922.7224,621.6736,913.3474,617.5069,917.5141,621.6736,913.3474,625.8403,922.7224,621.6736" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.3357" x="627.6808" y="871.3657">Trigger Updates</text>
+        </g><!--link PortfolioSvc to Vault-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="Vault" data-source-line="113" data-uid="lnk68" id="link_PortfolioSvc_Vault">
+            <path d="M922.3995,597.7153 C798.3891,597.7153 564.9724,597.7153 564.9724,597.7153 C564.9724,597.7153 564.9724,1255.0069 564.9724,1255.0069 C564.9724,1255.0069 548.462,1255.0069 522.337,1255.0069" fill="none" id="PortfolioSvc-to-Vault" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="516.087,1255.0069,525.462,1259.1736,521.2953,1255.0069,525.462,1250.8403,516.087,1255.0069" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="46.7224" x="509.7641" y="760.6991">Secrets</text>
+        </g><!--link BillsSvc to Vault-->
+        <g class="link" data-entity-1="BillsSvc" data-entity-2="Vault" data-source-line="114" data-uid="lnk69" id="link_BillsSvc_Vault">
+            <path d="M927.0453,802.9236 C816.5974,802.9236 595.7016,802.9236 595.7016,802.9236 C595.7016,802.9236 595.7016,1276.8819 595.7016,1276.8819 C595.7016,1276.8819 561.9724,1276.8819 522.4516,1276.8819" fill="none" id="BillsSvc-to-Vault" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="516.2016,1276.8819,525.5766,1281.0486,521.4099,1276.8819,525.5766,1272.7153,516.2016,1276.8819" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="46.7224" x="605.0766" y="935.9178">Secrets</text>
+        </g><!--link DockerHost to GHCR-->
+        <g class="link" data-entity-1="DockerHost" data-entity-2="GHCR" data-source-line="117" data-uid="lnk70" id="link_DockerHost_GHCR">
+            <path d="M1594.6676,406.0486 C1594.7723,406.0486 1594.8779,406.0486 1594.9845,406.0486 C1595.4106,406.0486 1595.8511,406.0486 1596.3055,406.0486 C1597.2145,406.0486 1598.1795,406.0486 1599.198,406.0486 C1607.3461,406.0486 1618.919,406.0486 1632.6183,406.0486 C1660.0167,406.0486 1689.6703,406.0486 1723.6912,406.0486" fill="none" id="DockerHost-to-GHCR" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1729.9412,406.0486,1720.5662,401.8819,1724.7328,406.0486,1720.5662,410.2153,1729.9412,406.0486" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.3765" x="1507.5453" y="394.6574">Pull Images</text>
+        </g><!--link GHCR to DockerHost-->
+        <g class="link" data-entity-1="GHCR" data-entity-2="DockerHost" data-source-line="118" data-uid="lnk71" id="link_GHCR_DockerHost">
+            <path d="M1836.3266,388.7882 C1836.3266,343.1215 1836.3266,269.5903 1836.3266,269.5903 C1836.3266,269.5903 1774.8006,269.5903 1712.7927,269.5903 C1681.7888,269.5903 1650.6645,269.5903 1627.0502,269.5903 C1615.2431,269.5903 1605.3135,269.5903 1598.2152,269.5903 C1597.3279,269.5903 1596.4849,269.5903 1595.688,269.5903 C1595.4887,269.5903 1601.5424,269.5903 1601.3489,269.5903" fill="none" id="GHCR-to-DockerHost" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1595.0989,269.5903,1604.4739,273.7569,1600.3073,269.5903,1604.4739,265.4236,1595.0989,269.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="80.9387" x="1681.3683" y="258.1991">Push Images</text>
+        </g><!--link PortfolioUI to Network-->
+        <g class="link" data-entity-1="PortfolioUI" data-entity-2="Network" data-source-line="121" data-uid="lnk72" id="link_PortfolioUI_Network">
+            <path d="M1328.8266,293.5486 C1306.5245,293.5486 1286.8474,293.5486 1286.8474,293.5486 C1286.8474,293.5486 1286.8474,1167.809 1286.8474,1356.9861" fill="none" id="PortfolioUI-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1286.8474,1363.2361,1291.0141,1353.8611,1286.8474,1358.0278,1282.6808,1353.8611,1286.8474,1363.2361" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1177.4724" y="796.0116">Docker Network</text>
+        </g><!--link PrestigeUI to Network-->
+        <g class="link" data-entity-1="PrestigeUI" data-entity-2="Network" data-source-line="122" data-uid="lnk73" id="link_PrestigeUI_Network">
+            <path d="M1309.5037,459.8298 C1309.5037,612.3194 1309.5037,1204.059 1309.5037,1356.8194" fill="none" id="PrestigeUI-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1309.5037,1363.0694,1313.6703,1353.6944,1309.5037,1357.8611,1305.337,1353.6944,1309.5037,1363.0694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1200.1287" y="933.3866">Docker Network</text>
+        </g><!--link ModFed to Network-->
+        <g class="link" data-entity-1="ModFed" data-entity-2="Network" data-source-line="123" data-uid="lnk74" id="link_ModFed_Network">
+            <path d="M1369.4828,656.5903 C1369.4828,786.1319 1369.4828,1226.9861 1369.4828,1356.8611" fill="none" id="ModFed-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1369.4828,1363.1111,1373.6495,1353.7361,1369.4828,1357.9028,1365.3162,1353.7361,1369.4828,1363.1111" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1260.1078" y="1031.7928">Docker Network</text>
+        </g><!--link PortfolioSvc to Network-->
+        <g class="link" data-entity-1="PortfolioSvc" data-entity-2="Network" data-source-line="124" data-uid="lnk75" id="link_PortfolioSvc_Network">
+            <path d="M1073.0349,634.1736 C1152.5766,634.1736 1266.6495,634.1736 1266.6495,634.1736 C1266.6495,634.1736 1266.6495,1205.4965 1266.6495,1356.6528" fill="none" id="PortfolioSvc-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1266.6495,1362.9028,1270.8162,1353.5278,1266.6495,1357.6944,1262.4828,1353.5278,1266.6495,1362.9028" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1276.0245" y="890.3449">Docker Network</text>
+        </g><!--link BillsSvc to Network-->
+        <g class="link" data-entity-1="BillsSvc" data-entity-2="Network" data-source-line="125" data-uid="lnk76" id="link_BillsSvc_Network">
+            <path d="M1049.4724,824.7986 C1129.7016,824.7986 1260.5141,824.7986 1260.5141,824.7986 C1260.5141,824.7986 1260.5141,1231.9028 1260.5141,1357.0382" fill="none" id="BillsSvc-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1260.5141,1363.2882,1264.6808,1353.9132,1260.5141,1358.0798,1256.3474,1353.9132,1260.5141,1363.2882" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1269.8891" y="977.1261">Docker Network</text>
+        </g><!--link LoansSvc to Network-->
+        <g class="link" data-entity-1="LoansSvc" data-entity-2="Network" data-source-line="126" data-uid="lnk77" id="link_LoansSvc_Network">
+            <path d="M1053.8162,947.7153 C1132.5662,947.7153 1254.3787,947.7153 1254.3787,947.7153 C1254.3787,947.7153 1254.3787,1250.059 1254.3787,1356.7361" fill="none" id="LoansSvc-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1254.3787,1362.9861,1258.5453,1353.6111,1254.3787,1357.7778,1250.212,1353.6111,1254.3787,1362.9861" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1263.7537" y="1077.0116">Docker Network</text>
+        </g><!--link HouseSvc to Network-->
+        <g class="link" data-entity-1="HouseSvc" data-entity-2="Network" data-source-line="127" data-uid="lnk78" id="link_HouseSvc_Network">
+            <path d="M1131.3787,1116.2361 C1131.3787,1201.7569 1131.3787,1411.2569 1131.3787,1411.2569 C1131.3787,1411.2569 1186.1599,1411.2569 1238.7224,1411.2569" fill="none" id="HouseSvc-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1244.9724,1411.2569,1235.5974,1407.0903,1239.7641,1411.2569,1235.5974,1415.4236,1244.9724,1411.2569" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1022.0037" y="1342.4907">Docker Network</text>
+        </g><!--link ProfileSvc to Network-->
+        <g class="link" data-entity-1="ProfileSvc" data-entity-2="Network" data-source-line="128" data-uid="lnk79" id="link_ProfileSvc_Network">
+            <path d="M1079.1183,1265.4236 C1149.3891,1265.4236 1248.2433,1265.4236 1248.2433,1265.4236 C1248.2433,1265.4236 1248.2433,1317.2778 1248.2433,1356.7778" fill="none" id="ProfileSvc-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1248.2433,1363.0278,1252.4099,1353.6528,1248.2433,1357.8194,1244.0766,1353.6528,1248.2433,1363.0278" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1103.1078" y="1254.0324">Docker Network</text>
+        </g><!--link Nginx to Network-->
+        <g class="link" data-entity-1="Nginx" data-entity-2="Network" data-source-line="129" data-uid="lnk80" id="link_Nginx_Network">
+            <path d="M481.7433,656.6736 C481.7433,696.3298 481.7433,755.0069 481.7433,755.0069 C481.7433,755.0069 1263.587,755.0069 1263.587,755.0069 C1263.587,755.0069 1263.587,1222.0278 1263.587,1356.9757" fill="none" id="Nginx-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1263.587,1363.2257,1267.7537,1353.8507,1263.587,1358.0173,1259.4203,1353.8507,1263.587,1363.2257" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1018.2328" y="743.6157">Docker Network</text>
+        </g><!--link Envoy to Network-->
+        <g class="link" data-entity-1="Envoy" data-entity-2="Network" data-source-line="130" data-uid="lnk81" id="link_Envoy_Network">
+            <path d="M490.1495,849.4236 C490.1495,865.5382 490.1495,881.0486 490.1495,881.0486 C490.1495,881.0486 1257.4516,881.0486 1257.4516,881.0486 C1257.4516,881.0486 1257.4516,1239.9548 1257.4516,1356.9236" fill="none" id="Envoy-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1257.4516,1363.1736,1261.6183,1353.7986,1257.4516,1357.9653,1253.2849,1353.7986,1257.4516,1363.1736" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1108.4203" y="869.6574">Docker Network</text>
+        </g><!--link Keycloak to Network-->
+        <g class="link" data-entity-1="Keycloak" data-entity-2="Network" data-source-line="131" data-uid="lnk82" id="link_Keycloak_Network">
+            <path d="M482.6808,982.7569 C482.6808,998.8715 482.6808,1014.3819 482.6808,1014.3819 C482.6808,1014.3819 1251.3162,1014.3819 1251.3162,1014.3819 C1251.3162,1014.3819 1251.3162,1261.8819 1251.3162,1357.0382" fill="none" id="Keycloak-to-Network" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1251.3162,1363.2882,1255.4828,1353.9132,1251.3162,1358.0798,1247.1495,1353.9132,1251.3162,1363.2882" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="1035.0141" y="1002.9907">Docker Network</text>
+        </g><!--link MongoDB to Network-->
+        <g class="link" data-entity-1="MongoDB" data-entity-2="Network" data-source-line="132" data-uid="lnk83" id="link_MongoDB_Network">
+            <path d="M856.313,1452.9236 C857.3742,1452.9236 858.5326,1452.9236 859.7846,1452.9236 C862.2884,1452.9236 865.1664,1452.9236 868.3898,1452.9236 C881.2832,1452.9236 899.7024,1452.9236 921.8054,1452.9236 C966.0115,1452.9236 1024.9529,1452.9236 1083.8943,1452.9236 C1201.7771,1452.9236 1319.6599,1452.9236 1319.6599,1452.9236 C1319.6599,1452.9236 1319.6599,1450.7465 1319.6599,1440.5278" fill="none" id="MongoDB-to-Network"
+                  style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+            <polygon fill="#D0D0D0" points="1319.6599,1434.2778,1315.4933,1443.6528,1319.6599,1439.4861,1323.8266,1443.6528,1319.6599,1434.2778" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100.5737" x="890.3578" y="1474.8657">Docker Network</text>
+        </g><!--link Internet to Network--><!--link Network to FrontendPkg--><!--link FrontendPkg to InfraPkg--><!--link InfraPkg to BackendPkg--><!--link BackendPkg to MongoDB--><!--link MongoDB to ExternalAPIs--><!--link ExternalAPIs to Registry--><!--SRC=[fLTBRnit4BxpLx3s8IrGkMdYEeqF0IHBZjJ6iM0foQ7gWLvHAqOhSa5oPGj5_dk7Z-MIadQ3ef1XMvnlXfnl7Xp-eDTqI_5ZKT5SaZrI6yPB8iaMPs9R2awvdkbzGR6acIOyBsW4AHYdUbzIBAHUYqX0f1HFypNBDfmgXNyzr3afiKeteX0IdmzVci-1MflCAjuAhZtWxKlpGKWp3GSVxqi1JcgMaGBFjCWs2lVma9Q5s6_1FToNsPffSA-I5A6i4DKIdqsufX9EUeQ9mlKNV3vwQJu8SR6a-6m8ngZ4Ow4SpdqtNp7-1s4uc6Ohakc0_4Zrav2R1T-nhsI_eoMnUduPdrzT3dwxlG9D-2b9jY4vx78hmJNAb_W6_XBWGIghLQzFDxdTBTwlX8YiHC54hs8BtkTvLH29-sLfDQUrzDC4dz_UldfpEMpLBoLLckNK6ffAkcNL5XyPzA1MUrknND7bWj-9PGKnkQLBAebcWbjrM8MLe6frN-3FLBgWaOBbt8QASSM0U4-DnSM-zFvQi-MIyhzxxw8ZELXpmXZbTWR4jmFI9tmbYTAoicbnIBsLdkATvum_B_W3tG6KmgxYUUz2R0GXVr8bodTYl-0pAdSie_YEghNL6Pdr5fqDtKEc4aYb2RW2cRutc-s07Mbr__Jo5dN2vAeGJml-1VBE_8VleGg08eYAS1Rw3j9YO4UgGfipPv9gY23XG9jJ_6n4JQdybs0wbk80MGwipB4HoseVhJWu72Ey3nPG-nFBxL5jzEFO3-2V4_NcbxlBJRaW0ZEbP3p70o5qMdEpNTPI98-iA5IxXO4Hjsk3yxn3-uCHjsklHQLep_Hy8faIlDtGs23R3PLIh5X1EuXmW7OBolJedieaAQbSy8_GQY- -kX3OzZrpal_PBip-SIhKx5fKe3f6r0nQHA0pHjJKM4JWAUrAjVE-AmKkObJiPjERbaIJHm9TvUnEy5mC1miErqfbFHrwcM-dLepFtxpz_UfcuBCLQ9KslUTiItlGR1XLaE950JSVD685aJBRmfbC4nepWtUzooXuV7D3HGR3AH9hSmaC4VVjPpnwBYbNLDNtf5Lex5c3qJun6m5jgVWMhkZHixcL8U3zwSJPhLVCGjs0hFSHTKHkA8mqa196p_4LhS7mqB_iZnAT1qeAu8R3u52hH4krHdEmq3S0bWEFdiRwItAo9ktVZsyU5lmzq-Fg4RUOC9XumnV1PHZNEFVSep2lz80-rrElyNW-dyxmZwO0yENbwvzIL6YVr_Y-N-drgr_k9yCRiuE3mGvIL1eg6VacNJTdRnhv_coIFAwn8scehID9gAaZIQYbuxsQ2l8oE7AOcBIekpPAveG3Mb0y7HpA_71oj0xxr1S5R5CN84eRZ1qnN3LUcwI10Eqe7ahuBL7JPJfXJQlfX3NzfXCMjvnEOEfVKcmdd8nA24oDPdC3FCP5TTC5I_fy1BJfc0ncSTeVcJbAQlp7btbA-sb8GlbfI4BtQSW1rQT1ACmbIJHcC8sPKNbfWr2LAi4TLDXSiXocB_ofXAP55JfcmiraODRDQoa7Xq9WkUa_qlSV53rkZ99jHTTuMXK5dcpX7b38BlLSnwwX1g7MDG8i-xTEKeyN5-_26-WQfs-bk3OxSRvEkst5l7GY0q6Tg90ddQYGAj_nCsHB9yureKw8Qu-Ta92Ct-7KvMCd28BwWUpXSi1hPkxq5Rp1TqV3M7JTH7TxSCeRZsNH-nR5RzqOKp_4K7YH9JDTcDXHDBodxp_hO70qUNf4qmHAHeiOLT_Fw5y0]-->
+    </g>
+</svg>

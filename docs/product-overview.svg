@@ -1,0 +1,356 @@
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="936.4583px" preserveAspectRatio="none" style="width:2464px;height:936px;" version="1.1" viewBox="0 0 2464 936" width="2464.5833px" zoomAndPan="magnify">
+    <title>Hypothetical Stocks - Product Overview</title>
+    <defs>
+        <linearGradient id="ggfllvlhya0b60" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F5F5F5"/>
+            <stop offset="100%" stop-color="#F2F2F2"/>
+        </linearGradient>
+        <linearGradient id="ggfllvlhya0b61" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#3786BE"/>
+            <stop offset="100%" stop-color="#0568AE"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g class="title" data-source-line="11">
+            <rect fill="url(#ggfllvlhya0b60)" height="54.4861" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="494.2139" x="981.009" y="20.8333"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="465.0472" x="995.5923" y="56.3619">Hypothetical Stocks - Product Overview</text>
+        </g><!--cluster Core Product Value-->
+        <g class="cluster" data-entity="Core Product Value" data-source-line="17" data-uid="ent0005" id="cluster_Core Product Value">
+            <path d="M621.5313,227.9236 L758.3253,227.9236 A15.625,15.625 0 0 1 768.7419,238.3403 L776.0336,266.0319 L1365.2813,266.0319 A10.4167,10.4167 0 0 1 1375.6979,276.4486 L1375.6979,352.9236 A10.4167,10.4167 0 0 1 1365.2813,363.3403 L621.5313,363.3403 A10.4167,10.4167 0 0 1 611.1146,352.9236 L611.1146,238.3403 A10.4167,10.4167 0 0 1 621.5313,227.9236" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="611.1146" x2="776.0336" y1="266.0319" y2="266.0319"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="134.7107" x="623.6146" y="250.9074">Core Product Value</text>
+        </g><!--cluster Portfolio Management-->
+        <g class="cluster" data-entity="Portfolio Management" data-source-line="24" data-uid="ent0010" id="cluster_Portfolio Management">
+            <path d="M243.4063,393.0278 L401.0194,393.0278 A15.625,15.625 0 0 1 411.436,403.4444 L418.7277,431.1361 L432.9896,431.1361 A10.4167,10.4167 0 0 1 443.4063,441.5527 L443.4063,913.8611 A10.4167,10.4167 0 0 1 432.9896,924.2778 L243.4063,924.2778 A10.4167,10.4167 0 0 1 232.9896,913.8611 L232.9896,403.4444 A10.4167,10.4167 0 0 1 243.4063,393.0278" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="232.9896" x2="418.7277" y1="431.1361" y2="431.1361"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="155.5298" x="245.4896" y="416.0116">Portfolio Management</text>
+        </g><!--cluster Expense Management-->
+        <g class="cluster" data-entity="Expense Management" data-source-line="31" data-uid="ent0015" id="cluster_Expense Management">
+            <path d="M1720.4896,393.0278 L1876.0275,393.0278 A15.625,15.625 0 0 1 1886.4442,403.4444 L1893.7358,431.1361 L1910.0729,431.1361 A10.4167,10.4167 0 0 1 1920.4896,441.5527 L1920.4896,913.8611 A10.4167,10.4167 0 0 1 1910.0729,924.2778 L1720.4896,924.2778 A10.4167,10.4167 0 0 1 1710.0729,913.8611 L1710.0729,403.4444 A10.4167,10.4167 0 0 1 1720.4896,393.0278" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="1710.0729" x2="1893.7358" y1="431.1361" y2="431.1361"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="153.4546" x="1722.5729" y="416.0116">Expense Management</text>
+        </g><!--cluster Financial Planning-->
+        <g class="cluster" data-entity="Financial Planning" data-source-line="38" data-uid="ent0020" id="cluster_Financial Planning">
+            <path d="M1338.1979,528.4444 L1468.8762,528.4444 A15.625,15.625 0 0 1 1479.2929,538.8611 L1486.5846,566.5527 L1674.6563,566.5527 A10.4167,10.4167 0 0 1 1685.0729,576.9694 L1685.0729,783.6528 A10.4167,10.4167 0 0 1 1674.6563,794.0694 L1338.1979,794.0694 A10.4167,10.4167 0 0 1 1327.7813,783.6528 L1327.7813,538.8611 A10.4167,10.4167 0 0 1 1338.1979,528.4444" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="1327.7813" x2="1486.5846" y1="566.5527" y2="566.5527"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="128.595" x="1340.2813" y="551.4282">Financial Planning</text>
+        </g><!--cluster Data Sources-->
+        <g class="cluster" data-entity="Data Sources" data-source-line="44" data-uid="ent0024" id="cluster_Data Sources">
+            <path d="M73.6146,223.2361 L168.392,223.2361 A15.625,15.625 0 0 1 178.8087,233.6528 L186.1003,261.3444 L575.6979,261.3444 A10.4167,10.4167 0 0 1 586.1146,271.7611 L586.1146,357.6111 A10.4167,10.4167 0 0 1 575.6979,368.0278 L73.6146,368.0278 A10.4167,10.4167 0 0 1 63.1979,357.6111 L63.1979,233.6528 A10.4167,10.4167 0 0 1 73.6146,223.2361" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="63.1979" x2="186.1003" y1="261.3444" y2="261.3444"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="92.6941" x="75.6979" y="246.2199">Data Sources</text>
+        </g><!--entity RiskFree-->
+        <g class="entity" data-entity="RiskFree" data-source-line="18" data-uid="ent0006" id="entity_RiskFree">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="172.9065" x="627.7813" y="278.9653"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="135.4065" x="646.5313" y="310.2824">Risk-Free Investment</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="62.0605" x="646.5313" y="325.474">Validation</text>
+        </g><!--entity Dashboard-->
+        <g class="entity" data-entity="Dashboard" data-source-line="19" data-uid="ent0007" id="entity_Dashboard">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="140.2649" x="1023.0938" y="278.9653"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="102.7649" x="1041.8438" y="310.2824">Unified Financial</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="67.5659" x="1041.8438" y="325.474">Dashboard</text>
+        </g><!--entity MarketData-->
+        <g class="entity" data-entity="MarketData" data-source-line="20" data-uid="ent0008" id="entity_MarketData">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="148.5291" x="837.6771" y="278.9653"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="111.0291" x="856.4271" y="310.2824">Real-Time Market</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.9917" x="856.4271" y="325.474">Data Integration</text>
+        </g><!--entity ExpenseMgmt-->
+        <g class="entity" data-entity="ExpenseMgmt" data-source-line="21" data-uid="ent0009" id="entity_ExpenseMgmt">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="158.2031" x="1200.6979" y="278.9653"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="120.7031" x="1219.4479" y="310.2824">Intelligent Expense</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.134" x="1219.4479" y="325.474">Management</text>
+        </g><!--entity StockTracking-->
+        <g class="entity" data-entity="StockTracking" data-source-line="25" data-uid="ent0011" id="entity_StockTracking">
+            <rect fill="#64B5F6" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="155.1147" x="250.1771" y="444.0694"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.6147" x="268.9271" y="475.3866">Hypothetical Stock</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="53.5828" x="268.9271" y="490.5782">Tracking</text>
+        </g><!--entity Analytics-->
+        <g class="entity" data-entity="Analytics" data-source-line="26" data-uid="ent0012" id="entity_Analytics">
+            <rect fill="#64B5F6" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="177.2339" x="249.6563" y="579.4861"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="139.7339" x="268.4063" y="610.8032">Performance Analytics</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="54.3945" x="268.4063" y="625.9949">&amp; Charts</text>
+        </g><!--entity Alerts-->
+        <g class="entity" data-entity="Alerts" data-source-line="27" data-uid="ent0013" id="entity_Alerts">
+            <rect fill="#64B5F6" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="150.5554" x="273.0938" y="709.6944"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="113.0554" x="291.8438" y="741.0116">Buy/Sell Indicator</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.1938" x="291.8438" y="756.2032">Alerts</text>
+        </g><!--entity History-->
+        <g class="entity" data-entity="History" data-source-line="28" data-uid="ent0014" id="entity_History">
+            <rect fill="#64B5F6" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="159.314" x="266.8438" y="839.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="121.814" x="285.5938" y="871.2199">Transaction History</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.8748" x="285.5938" y="886.4115">&amp; Audit Trail</text>
+        </g><!--entity CSVImport-->
+        <g class="entity" data-entity="CSVImport" data-source-line="32" data-uid="ent0016" id="entity_CSVImport">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="176.2939" x="1727.2604" y="444.0694"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.2666" x="1746.0104" y="475.3866">CSV Import</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="138.7939" x="1746.0104" y="490.5782">&amp; Auto-Categorization</text>
+        </g><!--entity Budget-->
+        <g class="entity" data-entity="Budget" data-source-line="33" data-uid="ent0017" id="entity_Budget">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="136.0168" x="1747.0521" y="579.4861"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="98.5168" x="1765.8021" y="610.8032">Monthly Budget</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="53.5828" x="1765.8021" y="625.9949">Tracking</text>
+        </g><!--entity Patterns-->
+        <g class="entity" data-entity="Patterns" data-source-line="34" data-uid="ent0018" id="entity_Patterns">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="146.0876" x="1749.6563" y="709.6944"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="108.5876" x="1768.4063" y="741.0116">Spending Pattern</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="51.2451" x="1768.4063" y="756.2032">Analysis</text>
+        </g><!--entity YoY-->
+        <g class="entity" data-entity="YoY" data-source-line="35" data-uid="ent0019" id="entity_YoY">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="132.5745" x="1756.4271" y="839.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.0745" x="1775.1771" y="871.2199">Year-over-Year</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.0547" x="1775.1771" y="886.4115">Comparisons</text>
+        </g><!--entity Loans-->
+        <g class="entity" data-entity="Loans" data-source-line="39" data-uid="ent0021" id="entity_Loans">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="130.8838" x="1344.4479" y="579.4861"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="87.9395" x="1363.1979" y="610.8032">Loan Tracking</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="93.3838" x="1363.1979" y="625.9949">&amp; Amortization</text>
+        </g><!--entity RealEstate-->
+        <g class="entity" data-entity="RealEstate" data-source-line="40" data-uid="ent0022" id="entity_RealEstate">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="155.2856" x="1512.6771" y="579.4861"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7856" x="1531.4271" y="610.8032">House Comparison</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.3135" x="1531.4271" y="625.9949">with Mortgages</text>
+        </g><!--entity MultiDomain-->
+        <g class="entity" data-entity="MultiDomain" data-source-line="41" data-uid="ent0023" id="entity_MultiDomain">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="126.3672" x="1436.6354" y="709.6944"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="84.1309" x="1455.3854" y="741.0116">Multi-Domain</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="88.8672" x="1455.3854" y="756.2032">Financial View</text>
+        </g><!--entity MarketStack-->
+        <g class="entity" data-entity="MarketStack" data-source-line="45" data-uid="ent0025" id="entity_MarketStack">
+            <path d="M79.8646,284.6944 C79.8646,274.2778 150.5006,274.2778 150.5006,274.2778 C150.5006,274.2778 221.1366,274.2778 221.1366,284.6944 L221.1366,341.1194 C221.1366,351.5361 150.5006,351.5361 150.5006,351.5361 C150.5006,351.5361 79.8646,351.5361 79.8646,341.1194 L79.8646,284.6944" fill="#707070" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <path d="M79.8646,284.6944 C79.8646,295.1111 150.5006,295.1111 150.5006,295.1111 C150.5006,295.1111 221.1366,295.1111 221.1366,284.6944" fill="none" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.772" x="98.6146" y="320.1782">MarketStack API</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="99.231" x="98.6146" y="335.3699">Historical Prices</text>
+        </g><!--entity RealStonks-->
+        <g class="entity" data-entity="RealStonks" data-source-line="46" data-uid="ent0026" id="entity_RealStonks">
+            <path d="M257.9896,284.6944 C257.9896,274.2778 327.6795,274.2778 327.6795,274.2778 C327.6795,274.2778 397.3695,274.2778 397.3695,284.6944 L397.3695,341.1194 C397.3695,351.5361 327.6795,351.5361 327.6795,351.5361 C327.6795,351.5361 257.9896,351.5361 257.9896,341.1194 L257.9896,284.6944" fill="#707070" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <path d="M257.9896,284.6944 C257.9896,295.1111 327.6795,295.1111 327.6795,295.1111 C327.6795,295.1111 397.3695,295.1111 397.3695,284.6944" fill="none" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.6909" x="276.7396" y="320.1782">RealStonks API</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="101.8799" x="276.7396" y="335.3699">Real-time Prices</text>
+        </g><!--entity AnalystData-->
+        <g class="entity" data-entity="AnalystData" data-source-line="47" data-uid="ent0027" id="entity_AnalystData">
+            <path d="M434.0313,284.6944 C434.0313,274.2778 501.7009,274.2778 501.7009,274.2778 C501.7009,274.2778 569.3706,274.2778 569.3706,284.6944 L569.3706,341.1194 C569.3706,351.5361 501.7009,351.5361 501.7009,351.5361 C501.7009,351.5361 434.0313,351.5361 434.0313,341.1194 L434.0313,284.6944" fill="#707070" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <path d="M434.0313,284.6944 C434.0313,295.1111 501.7009,295.1111 501.7009,295.1111 C501.7009,295.1111 569.3706,295.1111 569.3706,284.6944" fill="none" style="stroke:#007FAF;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="97.8394" x="452.7813" y="320.1782">Analyst Targets</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="90.5884" x="452.7813" y="335.3699">&amp; Market Data</text>
+        </g><!--entity Investor-->
+        <g class="entity" data-entity="Investor" data-source-line="13" data-uid="ent0002" id="entity_Investor">
+            <ellipse cx="333.0242" cy="127.4028" fill="#7986CB" rx="16.6667" ry="16.6667" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <path d="M333.0242,148.2361 C337.1908,148.2361 340.3158,148.2361 344.4825,144.0694 C352.8158,144.0694 361.1492,152.4028 361.1492,160.7361 L361.1492,164.9028 C361.1492,169.0694 356.9825,173.2361 352.8158,173.2361 L313.2325,173.2361 C309.0658,173.2361 304.8992,169.0694 304.8992,164.9028 L304.8992,160.7361 C304.8992,152.4028 313.2325,144.0694 321.5658,144.0694 C325.7325,148.2361 328.8575,148.2361 333.0242,148.2361" fill="#7986CB" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="141.7358" x="262.1563" y="195.1782">Investment Enthusiast</text>
+        </g><!--entity BudgetUser-->
+        <g class="entity" data-entity="BudgetUser" data-source-line="14" data-uid="ent0003" id="entity_BudgetUser">
+            <ellipse cx="1547.4712" cy="127.4028" fill="#7986CB" rx="16.6667" ry="16.6667" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <path d="M1547.4712,148.2361 C1551.6379,148.2361 1554.7629,148.2361 1558.9295,144.0694 C1567.2629,144.0694 1575.5962,152.4028 1575.5962,160.7361 L1575.5962,164.9028 C1575.5962,169.0694 1571.4295,173.2361 1567.2629,173.2361 L1527.6795,173.2361 C1523.5129,173.2361 1519.3462,169.0694 1519.3462,164.9028 L1519.3462,160.7361 C1519.3462,152.4028 1527.6795,144.0694 1536.0129,144.0694 C1540.1795,148.2361 1543.3045,148.2361 1547.4712,148.2361" fill="#7986CB"
+                  style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="145.6299" x="1474.6563" y="195.1782">Budget-Conscious User</text>
+        </g><!--entity Planner-->
+        <g class="entity" data-entity="Planner" data-source-line="15" data-uid="ent0004" id="entity_Planner">
+            <ellipse cx="1368.4276" cy="127.4028" fill="#7986CB" rx="16.6667" ry="16.6667" style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <path d="M1368.4276,148.2361 C1372.5943,148.2361 1375.7193,148.2361 1379.8859,144.0694 C1388.2193,144.0694 1396.5526,152.4028 1396.5526,160.7361 L1396.5526,164.9028 C1396.5526,169.0694 1392.3859,173.2361 1388.2193,173.2361 L1348.6359,173.2361 C1344.4693,173.2361 1340.3026,169.0694 1340.3026,164.9028 L1340.3026,160.7361 C1340.3026,152.4028 1348.6359,144.0694 1356.9693,144.0694 C1361.1359,148.2361 1364.2609,148.2361 1368.4276,148.2361" fill="#7986CB"
+                  style="stroke:#33B2E2;stroke-width:1.0417;"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="106.2927" x="1315.2813" y="195.1782">Financial Planner</text>
+        </g>
+        <g class="entity" data-entity="GMN60" data-source-line="95" data-uid="ent0061" id="entity_GMN60">
+            <path d="M1395.4896,279.4861 L1395.4896,346.5027 A10.4167,10.4167 0 0 0 1405.9063,356.9194 L1602.0387,356.9194 A10.4167,10.4167 0 0 0 1612.4553,346.5027 L1612.4553,279.4861 L1602.0387,269.0694 L1405.9063,269.0694 A10.4167,10.4167 0 0 0 1395.4896,279.4861" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <path d="M1602.0387,269.0694 L1602.0387,274.2778 A5.2083,5.2083 0 0 0 1607.247,279.4861 L1612.4553,279.4861 L1602.0387,269.0694" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="126.0803" x="1410.0729" y="295.1782">Key Differentiator</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="167.2668" x="1410.0729" y="310.3699">Test investment strategies</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="167.6331" x="1410.0729" y="325.5615">without committing capital</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="178.4241" x="1410.0729" y="340.7532">Learn from real market data</text>
+        </g>
+        <g class="entity" data-entity="GMN63" data-source-line="102" data-uid="ent0064" id="entity_GMN63">
+            <path d="M2014.7604,279.4861 L2014.7604,346.5027 A10.4167,10.4167 0 0 0 2025.1771,356.9194 L2199.227,356.9194 A10.4167,10.4167 0 0 0 2209.6436,346.5027 L2209.6436,279.4861 L2199.227,269.0694 L2025.1771,269.0694 A10.4167,10.4167 0 0 0 2014.7604,279.4861" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <path d="M2199.227,269.0694 L2199.227,274.2778 A5.2083,5.2083 0 0 0 2204.4353,279.4861 L2209.6436,279.4861 L2199.227,269.0694" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="131.4819" x="2029.3438" y="295.1782">Unified Experience</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="156.3416" x="2029.3438" y="310.3699">Investments + Expenses</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="140.8081" x="2029.3438" y="325.5615">+ Loans + Real Estate</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="91.3757" x="2029.3438" y="340.7532">All in one view</text>
+        </g>
+        <g class="entity" data-entity="GMN66" data-source-line="109" data-uid="ent0067" id="entity_GMN66">
+            <path d="M2246.0104,279.4861 L2246.0104,346.5027 A10.4167,10.4167 0 0 0 2256.4271,356.9194 L2442.6901,356.9194 A10.4167,10.4167 0 0 0 2453.1068,346.5027 L2453.1068,279.4861 L2442.6901,269.0694 L2256.4271,269.0694 A10.4167,10.4167 0 0 0 2246.0104,279.4861" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <path d="M2442.6901,269.0694 L2442.6901,274.2778 A5.2083,5.2083 0 0 0 2447.8984,279.4861 L2453.1068,279.4861 L2442.6901,269.0694" fill="url(#ggfllvlhya0b61)" style="stroke:#0568AE;stroke-width:1.0417;"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="160.3699" x="2260.5938" y="295.1782">Intelligent Automation</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="165.9302" x="2260.5938" y="310.3699">Learns from user behavior</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="168.5547" x="2260.5938" y="325.5615">Auto-categorizes expenses</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="115.2893" x="2260.5938" y="340.7532">Identifies patterns</text>
+        </g><!--link Investor to RiskFree-->
+        <g class="link" data-entity-1="Investor" data-entity-2="RiskFree" data-source-line="51" data-uid="lnk28" id="link_Investor_RiskFree">
+            <path d="M412.5208,174.2778 C516.4688,174.2778 685.4167,174.2778 685.4167,174.2778 C685.4167,174.2778 685.4167,231.6632 685.4167,272.6736" fill="none" id="Investor-to-RiskFree" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="685.4167,278.9236,689.5833,269.5486,685.4167,273.7153,681.25,269.5486,685.4167,278.9236" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="94.8425" x="497.125" y="147.2616">Test Strategies</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="79.4739" x="504.8093" y="162.4532">Without Risk</text>
+        </g><!--link BudgetUser to Dashboard-->
+        <g class="link" data-entity-1="BudgetUser" data-entity-2="Dashboard" data-source-line="52" data-uid="lnk29" id="link_BudgetUser_Dashboard">
+            <path d="M1514.9271,206.6215 C1514.9271,218.2569 1514.9271,227.4028 1514.9271,227.4028 C1514.9271,227.4028 1069.9688,227.4028 1069.9688,227.4028 C1069.9688,227.4028 1069.9688,248.559 1069.9688,272.3194" fill="none" id="BudgetUser-to-Dashboard" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1069.9688,278.5694,1074.1354,269.1944,1069.9688,273.3611,1065.8021,269.1944,1069.9688,278.5694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="72.5952" x="1196.0104" y="200.3866">Single View</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="70.7886" x="1196.9137" y="215.5782">of Finances</text>
+        </g><!--link Planner to MarketData-->
+        <g class="link" data-entity-1="Planner" data-entity-2="MarketData" data-source-line="53" data-uid="lnk30" id="link_Planner_MarketData">
+            <path d="M1306.875,141.9861 C1182.3333,141.9861 912.1563,141.9861 912.1563,141.9861 C912.1563,141.9861 912.1563,222.559 912.1563,272.4132" fill="none" id="Planner-to-MarketData" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="912.1563,278.6632,916.3229,269.2882,912.1563,273.4548,907.9896,269.2882,912.1563,278.6632" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.3977" x="955.7604" y="114.9699">Data-Driven</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.9722" x="964.4732" y="130.1615">Decisions</text>
+        </g><!--link BudgetUser to ExpenseMgmt-->
+        <g class="link" data-entity-1="BudgetUser" data-entity-2="ExpenseMgmt" data-source-line="54" data-uid="lnk31" id="link_BudgetUser_ExpenseMgmt">
+            <path d="M1563.5417,206.6111 C1563.5417,227.9444 1563.5417,248.2361 1563.5417,248.2361 C1563.5417,248.2361 1324.3021,248.2361 1324.3021,248.2361 C1324.3021,248.2361 1324.3021,256.8923 1324.3021,272.3819" fill="none" id="BudgetUser-to-ExpenseMgmt" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1324.3021,278.6319,1328.4688,269.2569,1324.3021,273.4236,1320.1354,269.2569,1324.3021,278.6319" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="72.2717" x="1368.2813" y="221.2199">Understand</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.606" x="1375.1141" y="236.4115">Spending</text>
+        </g><!--link RiskFree to StockTracking-->
+        <g class="link" data-entity-1="RiskFree" data-entity-2="StockTracking" data-source-line="57" data-uid="lnk32" id="link_RiskFree_StockTracking">
+            <path d="M685.4167,346.7569 C685.4167,388.6632 685.4167,454.4861 685.4167,454.4861 C685.4167,454.4861 517.3021,454.4861 412.0729,454.4861" fill="none" id="RiskFree-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="405.8229,454.4861,415.1979,458.6528,411.0313,454.4861,415.1979,450.3194,405.8229,454.4861" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="48.4985" x="542.1979" y="443.0949">Enables</text>
+        </g><!--link RiskFree to Analytics-->
+        <g class="link" data-entity-1="RiskFree" data-entity-2="Analytics" data-source-line="58" data-uid="lnk33" id="link_RiskFree_Analytics">
+            <path d="M743.0521,346.8923 C743.0521,423.434 743.0521,602.4028 743.0521,602.4028 C743.0521,602.4028 552.4688,602.4028 433.2917,602.4028" fill="none" id="RiskFree-to-Analytics" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="427.0417,602.4028,436.4167,606.5694,432.25,602.4028,436.4167,598.2361,427.0417,602.4028" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="53.0334" x="651.3438" y="591.0116">Provides</text>
+        </g><!--link Dashboard to StockTracking-->
+        <g class="link" data-entity-1="Dashboard" data-entity-2="StockTracking" data-source-line="59" data-uid="lnk34" id="link_Dashboard_StockTracking">
+            <path d="M1058.25,346.7153 C1058.25,391.2465 1058.25,463.8611 1058.25,463.8611 C1058.25,463.8611 600.0729,463.8611 411.8542,463.8611" fill="none" id="Dashboard-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="405.6042,463.8611,414.9792,468.0278,410.8125,463.8611,414.9792,459.6944,405.6042,463.8611" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="52.771" x="729.0417" y="452.4699">Includes</text>
+        </g><!--link Dashboard to Budget-->
+        <g class="link" data-entity-1="Dashboard" data-entity-2="Budget" data-source-line="60" data-uid="lnk35" id="link_Dashboard_Budget">
+            <path d="M1128.5625,346.7986 C1128.5625,415.1528 1128.5625,562.8194 1128.5625,562.8194 C1128.5625,562.8194 1781.1667,562.8194 1781.1667,562.8194 C1781.1667,562.8194 1781.1667,563.9757 1781.1667,573.1111" fill="none" id="Dashboard-to-Budget" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1781.1667,579.3611,1785.3333,569.9861,1781.1667,574.1528,1777,569.9861,1781.1667,579.3611" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="52.771" x="1293.6667" y="551.4282">Includes</text>
+        </g><!--link Dashboard to Loans-->
+        <g class="link" data-entity-1="Dashboard" data-entity-2="Loans" data-source-line="61" data-uid="lnk36" id="link_Dashboard_Loans">
+            <path d="M1093.4063,346.8611 C1093.4063,427.8507 1093.4063,625.3194 1093.4063,625.3194 C1093.4063,625.3194 1245.0104,625.3194 1337.8229,625.3194" fill="none" id="Dashboard-to-Loans" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1344.0729,625.3194,1334.6979,621.1528,1338.8646,625.3194,1334.6979,629.4861,1344.0729,625.3194" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="52.771" x="1031.9479" y="600.0324">Includes</text>
+        </g><!--link MarketData to Alerts-->
+        <g class="link" data-entity-1="MarketData" data-entity-2="Alerts" data-source-line="62" data-uid="lnk37" id="link_MarketData_Alerts">
+            <path d="M912.1563,346.8194 C912.1563,450.4861 912.1563,755.5278 912.1563,755.5278 C912.1563,755.5278 584.2604,755.5278 430.5729,755.5278" fill="none" id="MarketData-to-Alerts" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="424.3229,755.5278,433.6979,759.6944,429.5313,755.5278,433.6979,751.3611,424.3229,755.5278" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="44.6472" x="819.4688" y="744.1366">Powers</text>
+        </g><!--link ExpenseMgmt to CSVImport-->
+        <g class="link" data-entity-1="ExpenseMgmt" data-entity-2="CSVImport" data-source-line="63" data-uid="lnk38" id="link_ExpenseMgmt_CSVImport">
+            <path d="M1354.1667,346.7153 C1354.1667,398.9132 1354.1667,493.0278 1354.1667,493.0278 C1354.1667,493.0278 1587.1042,493.0278 1720.9375,493.0278" fill="none" id="ExpenseMgmt-to-CSVImport" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1727.1875,493.0278,1717.8125,488.8611,1721.9792,493.0278,1717.8125,497.1944,1727.1875,493.0278" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="1428.9792" y="481.6366">Uses</text>
+        </g><!--link ExpenseMgmt to Patterns-->
+        <g class="link" data-entity-1="ExpenseMgmt" data-entity-2="Patterns" data-source-line="64" data-uid="lnk39" id="link_ExpenseMgmt_Patterns">
+            <path d="M1349.3021,347.1528 C1349.3021,408.2465 1349.3021,529.4861 1349.3021,529.4861 C1349.3021,529.4861 1889.5,529.4861 1889.5,529.4861 C1889.5,529.4861 1889.5,643.0173 1889.5,703.3819" fill="none" id="ExpenseMgmt-to-Patterns" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1889.5,709.6319,1893.6667,700.2569,1889.5,704.4236,1885.3333,700.2569,1889.5,709.6319" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="64.2212" x="1545.3854" y="518.0949">Generates</text>
+        </g><!--link Investor to StockTracking-->
+        <g class="link" data-entity-1="Investor" data-entity-2="StockTracking" data-source-line="67" data-uid="lnk40" id="link_Investor_StockTracking">
+            <path d="M401.4792,206.7048 C401.4792,272.0486 401.4792,380.4028 401.4792,437.4236" fill="none" id="Investor-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="401.4792,443.6736,405.6458,434.2986,401.4792,438.4653,397.3125,434.2986,401.4792,443.6736" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="69.9951" x="434.8654" y="347.1261">Add Stocks</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="118.0176" x="410.8542" y="362.3178">Track Performance</text>
+        </g><!--link StockTracking to Analytics-->
+        <g class="link" data-entity-1="StockTracking" data-entity-2="Analytics" data-source-line="68" data-uid="lnk41" id="link_StockTracking_Analytics">
+            <path d="M327.7813,512.0903 C327.7813,532.6215 327.7813,552.4028 327.7813,572.934" fill="none" id="StockTracking-to-Analytics" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="327.7813,579.184,331.9479,569.809,327.7813,573.9757,323.6146,569.809,327.7813,579.184" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="82.7759" x="236.1146" y="518.6261">View Returns</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="75.1221" x="239.9415" y="533.8178">Risk Metrics</text>
+        </g><!--link Analytics to Alerts-->
+        <g class="link" data-entity-1="Analytics" data-entity-2="Alerts" data-source-line="69" data-uid="lnk42" id="link_Analytics_Alerts">
+            <path d="M348.6146,647.2153 C348.6146,666.3507 348.6146,683.9548 348.6146,703.1423" fill="none" id="Analytics-to-Alerts" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="348.6146,709.3923,352.7813,700.0173,348.6146,704.184,344.4479,700.0173,348.6146,709.3923" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.9612" x="236.1146" y="700.2407">Get Notifications</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.8726" x="247.1589" y="715.4324">Target Prices</text>
+        </g><!--link Alerts to History-->
+        <g class="link" data-entity-1="Alerts" data-entity-2="History" data-source-line="70" data-uid="lnk43" id="link_Alerts_History">
+            <path d="M348.6146,777.4236 C348.6146,796.559 348.6146,814.1632 348.6146,833.3507" fill="none" id="Alerts-to-History" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="348.6146,839.6007,352.7813,830.2257,348.6146,834.3923,344.4479,830.2257,348.6146,839.6007" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="108.0078" x="231.9479" y="797.1157">Review Decisions</text>
+        </g><!--link BudgetUser to CSVImport-->
+        <g class="link" data-entity-1="BudgetUser" data-entity-2="CSVImport" data-source-line="73" data-uid="lnk44" id="link_BudgetUser_CSVImport">
+            <path d="M1620.4896,206.8611 C1620.4896,297.6736 1620.4896,483.6528 1620.4896,483.6528 C1620.4896,483.6528 1669.2083,483.6528 1720.75,483.6528" fill="none" id="BudgetUser-to-CSVImport" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1727,483.6528,1717.625,479.4861,1721.7917,483.6528,1717.625,487.8194,1727,483.6528" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="78.833" x="1532.9896" y="420.4595">Import Bank</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="72.3022" x="1536.255" y="435.6511">Statements</text>
+        </g><!--link CSVImport to Budget-->
+        <g class="link" data-entity-1="CSVImport" data-entity-2="Budget" data-source-line="74" data-uid="lnk45" id="link_CSVImport_Budget">
+            <path d="M1849.3958,512.0903 C1849.3958,532.6215 1849.3958,552.4028 1849.3958,572.934" fill="none" id="CSVImport-to-Budget" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1849.3958,579.184,1853.5625,569.809,1849.3958,573.9757,1845.2292,569.809,1849.3958,579.184" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="101.4038" x="1858.7708" y="567.5845">Auto-Categorize</text>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.9172" x="1880.0141" y="582.7761">Expenses</text>
+        </g><!--link Budget to Patterns-->
+        <g class="link" data-entity-1="Budget" data-entity-2="Patterns" data-source-line="75" data-uid="lnk46" id="link_Budget_Patterns">
+            <path d="M1816.5833,647.2153 C1816.5833,666.3507 1816.5833,683.9548 1816.5833,703.1423" fill="none" id="Budget-to-Patterns" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1816.5833,709.3923,1820.75,700.0173,1816.5833,704.184,1812.4167,700.0173,1816.5833,709.3923" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.6421" x="1712.4167" y="700.2407">Identify Trends</text>
+        </g><!--link Patterns to YoY-->
+        <g class="link" data-entity-1="Patterns" data-entity-2="YoY" data-source-line="76" data-uid="lnk47" id="link_Patterns_YoY">
+            <path d="M1822.5729,777.4236 C1822.5729,796.559 1822.5729,814.1632 1822.5729,833.3507" fill="none" id="Patterns-to-YoY" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1822.5729,839.6007,1826.7396,830.2257,1822.5729,834.3923,1818.4063,830.2257,1822.5729,839.6007" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="106.5796" x="1831.9479" y="830.4491">Compare Periods</text>
+        </g><!--link Planner to StockTracking-->
+        <g class="link" data-entity-1="Planner" data-entity-2="StockTracking" data-source-line="79" data-uid="lnk48" id="link_Planner_StockTracking">
+            <path d="M1366.3229,206.6736 C1366.3229,295.0694 1366.3229,473.2361 1366.3229,473.2361 C1366.3229,473.2361 652.7708,473.2361 411.6667,473.2361" fill="none" id="Planner-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="405.4167,473.2361,414.7917,477.4028,410.625,473.2361,414.7917,469.0694,405.4167,473.2361" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="97.1741" x="912.8958" y="461.8449">Track Portfolios</text>
+        </g><!--link Planner to Budget-->
+        <g class="link" data-entity-1="Planner" data-entity-2="Budget" data-source-line="80" data-uid="lnk49" id="link_Planner_Budget">
+            <path d="M1380.9063,206.8819 C1380.9063,311.1007 1380.9063,546.1528 1380.9063,546.1528 C1380.9063,546.1528 1815.2813,546.1528 1815.2813,546.1528 C1815.2813,546.1528 1815.2813,556.434 1815.2813,573.1007" fill="none" id="Planner-to-Budget" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1815.2813,579.3507,1819.4479,569.9757,1815.2813,574.1423,1811.1146,569.9757,1815.2813,579.3507" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="110.6201" x="1325.2604" y="568.0949">Monitor Expenses</text>
+        </g><!--link Planner to Loans-->
+        <g class="link" data-entity-1="Planner" data-entity-2="Loans" data-source-line="81" data-uid="lnk50" id="link_Planner_Loans">
+            <path d="M1373.6146,206.8507 C1373.6146,299.6215 1373.6146,493.2778 1373.6146,573.1215" fill="none" id="Planner-to-Loans" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1373.6146,579.3715,1377.7813,569.9965,1373.6146,574.1632,1369.4479,569.9965,1373.6146,579.3715" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="108.9966" x="1255.9063" y="381.7199">Track Obligations</text>
+        </g><!--link Planner to RealEstate-->
+        <g class="link" data-entity-1="Planner" data-entity-2="RealEstate" data-source-line="82" data-uid="lnk51" id="link_Planner_RealEstate">
+            <path d="M1388.1979,206.8507 C1388.1979,277.5694 1388.1979,400.3194 1388.1979,400.3194 C1388.1979,400.3194 1562.4167,400.3194 1562.4167,400.3194 C1562.4167,400.3194 1562.4167,512.6528 1562.4167,572.8611" fill="none" id="Planner-to-RealEstate" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1562.4167,579.1111,1566.5833,569.7361,1562.4167,573.9028,1558.25,569.7361,1562.4167,579.1111" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="124.2859" x="1334.6354" y="422.2616">Compare Properties</text>
+        </g><!--link StockTracking to MultiDomain-->
+        <g class="link" data-entity-1="StockTracking" data-entity-2="MultiDomain" data-source-line="83" data-uid="lnk52" id="link_StockTracking_MultiDomain">
+            <path d="M405.6667,502.4028 C666.6875,502.4028 1494.1875,502.4028 1494.1875,502.4028 C1494.1875,502.4028 1494.1875,636.7882 1494.1875,703.2569" fill="none" id="StockTracking-to-MultiDomain" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1494.1875,709.5069,1498.3542,700.1319,1494.1875,704.2986,1490.0208,700.1319,1494.1875,709.5069" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.8811" x="947.2292" y="524.3449">Combined View</text>
+        </g><!--link Budget to MultiDomain-->
+        <g class="link" data-entity-1="Budget" data-entity-2="MultiDomain" data-source-line="84" data-uid="lnk53" id="link_Budget_MultiDomain">
+            <path d="M1747.0521,613.8611 C1741.0208,613.8611 1737.1563,613.8611 1737.1563,613.8611 C1737.1563,613.8611 1737.1563,744.0694 1737.1563,744.0694 C1737.1563,744.0694 1639.2813,744.0694 1568.9271,744.0694" fill="none" id="Budget-to-MultiDomain" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1562.6771,744.0694,1572.0521,748.2361,1567.8854,744.0694,1572.0521,739.9028,1562.6771,744.0694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.8811" x="1613.7188" y="766.0116">Combined View</text>
+        </g><!--link Loans to MultiDomain-->
+        <g class="link" data-entity-1="Loans" data-entity-2="MultiDomain" data-source-line="85" data-uid="lnk54" id="link_Loans_MultiDomain">
+            <path d="M1456.1667,647.2153 C1456.1667,666.3507 1456.1667,683.9548 1456.1667,703.1423" fill="none" id="Loans-to-MultiDomain" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1456.1667,709.3923,1460.3333,700.0173,1456.1667,704.184,1452,700.0173,1456.1667,709.3923" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.8811" x="1349.9167" y="700.2407">Combined View</text>
+        </g><!--link RealEstate to MultiDomain-->
+        <g class="link" data-entity-1="RealEstate" data-entity-2="MultiDomain" data-source-line="86" data-uid="lnk55" id="link_RealEstate_MultiDomain">
+            <path d="M1537.6771,647.2153 C1537.6771,666.3507 1537.6771,683.9548 1537.6771,703.1423" fill="none" id="RealEstate-to-MultiDomain" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1537.6771,709.3923,1541.8438,700.0173,1537.6771,704.184,1533.5104,700.0173,1537.6771,709.3923" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="96.8811" x="1547.0521" y="700.2407">Combined View</text>
+        </g><!--link MarketStack to StockTracking-->
+        <g class="link" data-entity-1="MarketStack" data-entity-2="StockTracking" data-source-line="89" data-uid="lnk56" id="link_MarketStack_StockTracking">
+            <path d="M174.3021,351.6528 C174.3021,400.6007 174.3021,478.4444 174.3021,478.4444 C174.3021,478.4444 205.8229,478.4444 243.8958,478.4444" fill="none" id="MarketStack-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="250.1458,478.4444,240.7708,474.2778,244.9375,478.4444,240.7708,482.6111,250.1458,478.4444" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="79.2358" x="85.7604" y="441.5741">Price History</text>
+        </g><!--link RealStonks to StockTracking-->
+        <g class="link" data-entity-1="RealStonks" data-entity-2="StockTracking" data-source-line="90" data-uid="lnk57" id="link_RealStonks_StockTracking">
+            <path d="M327.7813,351.5278 C327.7813,379.5486 327.7813,410.8194 327.7813,437.684" fill="none" id="RealStonks-to-StockTracking" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="327.7813,443.934,331.9479,434.559,327.7813,438.7257,323.6146,434.559,327.7813,443.934" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="88.7573" x="229.8646" y="386.3449">Current Prices</text>
+        </g><!--link AnalystData to Alerts-->
+        <g class="link" data-entity-1="AnalystData" data-entity-2="Alerts" data-source-line="91" data-uid="lnk58" id="link_AnalystData_Alerts">
+            <path d="M501.7396,351.559 C501.7396,455.4861 501.7396,732.6111 501.7396,732.6111 C501.7396,732.6111 469.1042,732.6111 430.5313,732.6111" fill="none" id="AnalystData-to-Alerts" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="424.2813,732.6111,433.6563,736.7778,429.4896,732.6111,433.6563,728.4444,424.2813,732.6111" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.8726" x="511.1146" y="569.4282">Target Prices</text>
+        </g><!--link MarketStack to Analytics-->
+        <g class="link" data-entity-1="MarketStack" data-entity-2="Analytics" data-source-line="92" data-uid="lnk59" id="link_MarketStack_Analytics">
+            <path d="M127.0833,351.559 C127.0833,432.8611 127.0833,613.8611 127.0833,613.8611 C127.0833,613.8611 185.5625,613.8611 243.3333,613.8611" fill="none" id="MarketStack-to-Analytics" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="249.5833,613.8611,240.2083,609.6944,244.375,613.8611,240.2083,618.0278,249.5833,613.8611" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="92.0288" x="26.0417" y="532.5636">Historical Data</text>
+        </g><!--link RiskFree to GMN60-->
+        <g class="link" data-entity-1="RiskFree" data-entity-2="GMN60" data-source-line="95" data-uid="lnk62" id="link_RiskFree_GMN60">
+            <path d="M743.0521,278.7673 C743.0521,251.2153 743.0521,216.9861 743.0521,216.9861 C743.0521,216.9861 1412.6771,216.9861 1412.6771,216.9861 C1412.6771,216.9861 1412.6771,243.6319 1412.6771,268.8298" fill="none" id="RiskFree-GMN60" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+        </g><!--link Dashboard to GMN63-->
+        <g class="link" data-entity-1="Dashboard" data-entity-2="GMN63" data-source-line="102" data-uid="lnk65" id="link_Dashboard_GMN63">
+            <path d="M1116.8438,278.8298 C1116.8438,258.9861 1116.8438,237.8194 1116.8438,237.8194 C1116.8438,237.8194 2112.1563,237.8194 2112.1563,237.8194 C2112.1563,237.8194 2112.1563,252.434 2112.1563,268.7569" fill="none" id="Dashboard-GMN63" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+        </g><!--link ExpenseMgmt to GMN66-->
+        <g class="link" data-entity-1="ExpenseMgmt" data-entity-2="GMN66" data-source-line="109" data-uid="lnk68" id="link_ExpenseMgmt_GMN66">
+            <path d="M1341.6667,278.8194 C1341.6667,267.9444 1341.6667,258.6528 1341.6667,258.6528 C1341.6667,258.6528 2349.6563,258.6528 2349.6563,258.6528 C2349.6563,258.6528 2349.6563,262.7048 2349.6563,268.5903" fill="none" id="ExpenseMgmt-GMN66" style="stroke:#D0D0D0;stroke-width:1.0417;stroke-dasharray:7.2917,7.2917;"/>
+        </g><!--SRC=[XLTjRzis4FwkNt5BW0r8OQmRkdJrXm6ENRVPcjMeqmx5l0-qHDj49D8WgMJUiF- -vwWtIb5Q-4CatGlldhjxZld67sGXQPkNSc_5AN5tIX-55GMbfZWQBRLV-rCkoShK2xtFPQIIAotzwIZ9M7ymaK1OQnvk3ogzqz8v-c5eCoe9HdEJ6qldY-Vy6vWz9Gk6IwDzhV3gEVzYXTGRMwKX7gGpXKmIhpnUtvwE1WXubOgSrjwaTuucjB8cArDFx- -blLVo8Kc21pgxrlVI-GAWq6lj3wLJmlap4eug2P_-yjNFb_EhnkAgpFRIJ-P6krIPqj579ssmg2JyEhHPAYrqgX3HAXTQr_hrSwkS74Lw9_QIpkR6oZRcJmAbFAD_4-egI7z-KEvkihHIKfV2HaDNPS8he__Y4rWfw9mlbp- -VB7ek_YerKx9ZDheDdeXt65hXCs2UVisRlz1Ydnogz1iDyBUIS_cNY0UpvtN1b49WsZK3UldkTg76lnzbDh9ZRuH6aXmKi57_VrcN_ZMoNyHO2lqwyxaob1d-0YonwsnqRSMBfJUXrF2j-OBdL- -kFffUTdtiP9sPsm1l2JDjCXFyEOs-bkQ7uJrBhXflu-xk2fFtw-HCO3A40eQPADdkMojm-EuAMBJ3Zq5QEcjukuyyTcpCbEU85HvS56BMXynKZMINy9fllv4rtYpldBkpMGkK5DZrJzTMQ5LAV5upbxCNlUTt61w3_cf7ee1qDN7SSCruiiO_vNmNbeDS1XFfofuwgzktFYp57PYCEGJVjheEKJ2AeTX3TQVpUVMC4PbCA0u_X4gxupGr6GHW2cGV8m8QpmHrriGXQGkcer-KFv0D_2mHm1LS3nFhvq7r4z0MkPUJHQc40eEkf0_WT2gIME5IZwQPPZ1jIbjAbsL7xX2R0L2EwkcTEsXIxFLzKPNJHHcPOK_RD4ESwLs_l8v_tfkE0UCaGRh1Y-18pnpHEGaKXhpKTKR3IqikYHCLtKiSG9dxOYvcbHg5yZqkq36v0q51WtCcRH4FfdyqZ7Yb6xn5IDlkRMLn35_e2Icz44dYSYSxJegdD9QyTOCi6-qsTNyALtI43eRHAmt3N5F5bRTInHk8LFbq3DkU4PCSbFwg3DfqGqws-Xc9ZZ3BZFESoc5BotERXDZJtqYcsArYMq-LEfeQigxvbvbqEZo7FDphTEyVAnMZ_EJycem8d44JeYaeZo4OHwGSn83mVAEQgPSuCSABIbCwOr41L1InrYDRdVw5HEWvQdV6CDKPrbMNnzgxgA8-fE-zX1DxWmqEGgZOSsWqutqw7-NT6gznDy0lj-DnpvE0v_meQ7xwx59QaqsQjXzYYFuBaDTGo7bqUj9c_AWus9WwuSheR4Mryn2Z9jBEfrUgVjh0HkxhadJrSEwN6VmfdOdK2Xw6RFIY5YFQNbQqwDae9N9GZQFBavj9l6i3MjNrwkv4_G7iyq06qfnzTl0OwscPIjNxxUudrI5wMb5Z1s5RyqHnGAbZBH9JD71P8jhS1Ow9WRkIsfLQ5_JYaBxcYfmZZT3ZrPYlX-3EhHdqv99HEnZolFIMfx5fgSZ4kzDGx_rXo74anOjANQJ9DeWOQls1qzWveRli5ukBdwJ9rgetKvo38hlNHSN48Gre3gYSEr6WF2XNWdOmeNodjD8nL5vaKFu3bSCJJjh2lmlXGYAQadn8alGuyIn32DgYJ64rDp0kGMjac2M4597MuwUTVr9UAcA_onq7bNrnVSPRfCeBEu95FwxUUhqY3V3-V7LcmUw23qUOWZ9kIgxalbYAm_YNXdBn_7if-tiEv9TYFMS0puwrYFUXVC_]-->
+    </g>
+</svg>

@@ -1,0 +1,315 @@
+<svg xmlns="http://www.w3.org/2000/svg" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="1042.7083px" preserveAspectRatio="none" style="width:1484px;height:1042px;" version="1.1" viewBox="0 0 1484 1042" width="1484.375px" zoomAndPan="magnify">
+    <title>Hypothetical Stocks - Frontend Architecture</title>
+    <defs>
+        <linearGradient id="gi33qil7b2cf20" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#F5F5F5"/>
+            <stop offset="100%" stop-color="#F2F2F2"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <g class="title" data-source-line="10">
+            <rect fill="url(#gi33qil7b2cf20)" height="54.4861" rx="4.1667" ry="4.1667" style="stroke:#C2C2C2;stroke-width:1.0417;" width="543.4285" x="465.7857" y="20.8333"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="20.8333" font-weight="bold" lengthAdjust="spacing" textLength="514.2619" x="480.3691" y="56.3619">Hypothetical Stocks - Frontend Architecture</text>
+        </g><!--cluster User Experience Layer-->
+        <g class="cluster" data-entity="User Experience Layer" data-source-line="12" data-uid="ent0002" id="cluster_User Experience Layer">
+            <path d="M702.0833,93.0278 L861.0453,93.0278 A15.625,15.625 0 0 1 871.462,103.4444 L878.7537,131.1361 L1232.2917,131.1361 A10.4167,10.4167 0 0 1 1242.7083,141.5527 L1242.7083,218.0278 A10.4167,10.4167 0 0 1 1232.2917,228.4444 L702.0833,228.4444 A10.4167,10.4167 0 0 1 691.6667,218.0278 L691.6667,103.4444 A10.4167,10.4167 0 0 1 702.0833,93.0278" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="691.6667" x2="878.7537" y1="131.1361" y2="131.1361"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="156.8787" x="704.1667" y="116.0116">User Experience Layer</text>
+        </g><!--cluster Module Federation Host-->
+        <g class="cluster" data-entity="Module Federation Host" data-source-line="17" data-uid="ent0005" id="cluster_Module Federation Host">
+            <path d="M402.0833,253.4444 L571.0063,253.4444 A15.625,15.625 0 0 1 581.4229,263.8611 L588.7146,291.5527 L620.8333,291.5527 A10.4167,10.4167 0 0 1 631.25,301.9694 L631.25,378.4444 A10.4167,10.4167 0 0 1 620.8333,388.8611 L402.0833,388.8611 A10.4167,10.4167 0 0 1 391.6667,378.4444 L391.6667,263.8611 A10.4167,10.4167 0 0 1 402.0833,253.4444" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="391.6667" x2="588.7146" y1="291.5527" y2="291.5527"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="166.8396" x="404.1667" y="276.4282">Module Federation Host</text>
+        </g><!--cluster Shared Components-->
+        <g class="cluster" data-entity="Shared Components" data-source-line="21" data-uid="ent0007" id="cluster_Shared Components">
+            <path d="M396.875,413.8611 L540.0167,413.8611 A15.625,15.625 0 0 1 550.4333,424.2778 L557.725,451.9694 L1138.5417,451.9694 A10.4167,10.4167 0 0 1 1148.9583,462.3861 L1148.9583,538.8611 A10.4167,10.4167 0 0 1 1138.5417,549.2778 L396.875,549.2778 A10.4167,10.4167 0 0 1 386.4583,538.8611 L386.4583,424.2778 A10.4167,10.4167 0 0 1 396.875,413.8611" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="386.4583" x2="557.725" y1="451.9694" y2="451.9694"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="141.0583" x="398.9583" y="436.8449">Shared Components</text>
+        </g><!--cluster Service Layer-->
+        <g class="cluster" data-entity="Service Layer" data-source-line="27" data-uid="ent0011" id="cluster_Service Layer">
+            <path d="M27.0833,574.2778 L123.8505,574.2778 A15.625,15.625 0 0 1 134.2672,584.6944 L141.5588,612.3861 L677.0833,612.3861 A10.4167,10.4167 0 0 1 687.5,622.8027 L687.5,859.6944 A10.4167,10.4167 0 0 1 677.0833,870.1111 L27.0833,870.1111 A10.4167,10.4167 0 0 1 16.6667,859.6944 L16.6667,584.6944 A10.4167,10.4167 0 0 1 27.0833,574.2778" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="16.6667" x2="141.5588" y1="612.3861" y2="612.3861"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="94.6838" x="29.1667" y="597.2616">Service Layer</text>
+        </g><!--cluster State Management-->
+        <g class="cluster" data-entity="State Management" data-source-line="34" data-uid="ent0016" id="cluster_State Management">
+            <path d="M722.9167,734.6944 L856.8115,734.6944 A15.625,15.625 0 0 1 867.2282,745.1111 L874.5199,772.8027 L1051.0417,772.8027 A10.4167,10.4167 0 0 1 1061.4583,783.2194 L1061.4583,859.6944 A10.4167,10.4167 0 0 1 1051.0417,870.1111 L722.9167,870.1111 A10.4167,10.4167 0 0 1 712.5,859.6944 L712.5,745.1111 A10.4167,10.4167 0 0 1 722.9167,734.6944" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="712.5" x2="874.5199" y1="772.8027" y2="772.8027"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="131.8115" x="725" y="757.6782">State Management</text>
+        </g><!--cluster UI Framework-->
+        <g class="cluster" data-entity="UI Framework" data-source-line="39" data-uid="ent0019" id="cluster_UI Framework">
+            <path d="M722.9167,574.2778 L825.8911,574.2778 A15.625,15.625 0 0 1 836.3078,584.6944 L843.5994,612.3861 L1461.4583,612.3861 A10.4167,10.4167 0 0 1 1471.875,622.8027 L1471.875,699.2778 A10.4167,10.4167 0 0 1 1461.4583,709.6944 L722.9167,709.6944 A10.4167,10.4167 0 0 1 712.5,699.2778 L712.5,584.6944 A10.4167,10.4167 0 0 1 722.9167,574.2778" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="712.5" x2="843.5994" y1="612.3861" y2="612.3861"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="100.8911" x="725" y="597.2616">UI Framework</text>
+        </g><!--cluster Backend Services-->
+        <g class="cluster" data-entity="Backend Services" data-source-line="46" data-uid="ent0024" id="cluster_Backend Services">
+            <path d="M834.375,895.1111 L959.1512,895.1111 A15.625,15.625 0 0 1 969.5679,905.5278 L976.8595,933.2194 L1432.2917,933.2194 A10.4167,10.4167 0 0 1 1442.7083,943.6361 L1442.7083,1020.1111 A10.4167,10.4167 0 0 1 1432.2917,1030.5278 L834.375,1030.5278 A10.4167,10.4167 0 0 1 823.9583,1020.1111 L823.9583,905.5278 A10.4167,10.4167 0 0 1 834.375,895.1111" fill="none" style="stroke:#33B2E2;stroke-width:2.0833;"/>
+            <line style="stroke:#33B2E2;stroke-width:2.0833;" x1="823.9583" x2="976.8595" y1="933.2194" y2="933.2194"/>
+            <text fill="#009FDB" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="122.6929" x="836.4583" y="918.0949">Backend Services</text>
+        </g><!--entity StandardUI-->
+        <g class="entity" data-entity="StandardUI" data-source-line="13" data-uid="ent0003" id="entity_StandardUI">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="218.0847" x="708.8542" y="144.0694"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.1108" x="727.6042" y="175.3866">Standard UI</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="180.5847" x="727.6042" y="190.5782">Portfolio &amp; Bills Management</text>
+        </g><!--entity PremiumUI-->
+        <g class="entity" data-entity="PremiumUI" data-source-line="14" data-uid="ent0004" id="entity_PremiumUI">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="262.03" x="963.5417" y="144.0694"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="74.7803" x="982.2917" y="175.3866">Premium UI</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="224.53" x="982.2917" y="190.5782">Enhanced Analytics &amp; Visualizations</text>
+        </g><!--entity ModuleFed-->
+        <g class="entity" data-entity="ModuleFed" data-source-line="18" data-uid="ent0006" id="entity_ModuleFed">
+            <rect fill="#64B5F6" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="205.481" x="408.8542" y="304.4861"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="115.6494" x="427.6042" y="335.8032">Module Federation</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="167.981" x="427.6042" y="350.9949">Shared Component Loader</text>
+        </g><!--entity PortfolioComponents-->
+        <g class="entity" data-entity="PortfolioComponents" data-source-line="22" data-uid="ent0008" id="entity_PortfolioComponents">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="236.8408" x="895.3125" y="464.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="134.7595" x="914.0625" y="496.2199">Portfolio Components</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="199.3408" x="914.0625" y="511.4115">Stock List, Charts, Transactions</text>
+        </g><!--entity BillsComponents-->
+        <g class="entity" data-entity="BillsComponents" data-source-line="23" data-uid="ent0009" id="entity_BillsComponents">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="210.0525" x="647.9167" y="464.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="108.3191" x="666.6667" y="496.2199">Bills Components</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="172.5525" x="666.6667" y="511.4115">Expense List, Budget Views</text>
+        </g><!--entity CommonComponents-->
+        <g class="entity" data-entity="CommonComponents" data-source-line="24" data-uid="ent0010" id="entity_CommonComponents">
+            <rect fill="#FF274D" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="206.8787" x="403.6458" y="464.9028"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="139.0747" x="422.3958" y="496.2199">Common Components</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="169.3787" x="422.3958" y="511.4115">Navigation, Forms, Dialogs</text>
+        </g><!--entity PortfolioService-->
+        <g class="entity" data-entity="PortfolioService" data-source-line="28" data-uid="ent0012" id="entity_PortfolioService">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="198.23" x="33.3333" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="142.5842" x="52.0833" y="656.6366">Portfolio Client Service</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="160.73" x="52.0833" y="671.8282">REST API Communication</text>
+        </g><!--entity BillsService-->
+        <g class="entity" data-entity="BillsService" data-source-line="29" data-uid="ent0013" id="entity_BillsService">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="198.23" x="472.9167" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="116.1438" x="491.6667" y="656.6366">Bills Client Service</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="160.73" x="491.6667" y="671.8282">REST API Communication</text>
+        </g><!--entity AuthService-->
+        <g class="entity" data-entity="AuthService" data-source-line="30" data-uid="ent0014" id="entity_AuthService">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="167.8589" x="268.2292" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="79.7974" x="286.9792" y="656.6366">Auth Service</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="130.3589" x="286.9792" y="671.8282">Keycloak Integration</text>
+        </g><!--entity GrpcClient-->
+        <g class="entity" data-entity="GrpcClient" data-source-line="31" data-uid="ent0015" id="entity_GrpcClient">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="147.0642" x="291.1458" y="785.7361"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="73.0103" x="309.8958" y="817.0532">gRPC Client</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="109.5642" x="309.8958" y="832.2449">Progress Updates</text>
+        </g><!--entity RxJS-->
+        <g class="entity" data-entity="RxJS" data-source-line="35" data-uid="ent0017" id="entity_RxJS">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="157.6477" x="729.6875" y="785.7361"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="111.7126" x="748.4375" y="817.0532">RxJS Observables</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="120.1477" x="748.4375" y="832.2449">Reactive Data Flow</text>
+        </g><!--entity HttpClient-->
+        <g class="entity" data-entity="HttpClient" data-source-line="36" data-uid="ent0018" id="entity_HttpClient">
+            <rect fill="#90A4AE" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="120.4712" x="923.9583" y="785.7361"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="72.6013" x="942.7083" y="817.0532">HTTP Client</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="82.9712" x="942.7083" y="832.2449">API Requests</text>
+        </g><!--entity Angular-->
+        <g class="entity" data-entity="Angular" data-source-line="40" data-uid="ent0020" id="entity_Angular">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="167.4622" x="1286.9792" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="122.998" x="1305.7292" y="656.6366">Angular Framework</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="129.9622" x="1305.7292" y="671.8282">Component Lifecycle</text>
+        </g><!--entity PrimeNG-->
+        <g class="entity" data-entity="PrimeNG" data-source-line="41" data-uid="ent0021" id="entity_PrimeNG">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="175.3967" x="729.1667" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="137.8967" x="747.9167" y="656.6366">PrimeNG Components</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="107.4768" x="747.9167" y="671.8282">Rich UI Elements</text>
+        </g><!--entity Tailwind-->
+        <g class="entity" data-entity="Tailwind" data-source-line="42" data-uid="ent0022" id="entity_Tailwind">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="122.0093" x="941.1458" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.6406" x="959.8958" y="656.6366">Tailwind CSS</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="84.5093" x="959.8958" y="671.8282">Utility Styling</text>
+        </g><!--entity ChartJS-->
+        <g class="entity" data-entity="ChartJS" data-source-line="43" data-uid="ent0023" id="entity_ChartJS">
+            <rect fill="#7986CB" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="150.1587" x="1100" y="625.3194"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="49.7681" x="1118.75" y="656.6366">Chart.js</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="112.6587" x="1118.75" y="671.8282">Data Visualization</text>
+        </g><!--entity PortfolioAPI-->
+        <g class="entity" data-entity="PortfolioAPI" data-source-line="47" data-uid="ent0025" id="entity_PortfolioAPI">
+            <rect fill="#707070" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="197.1436" x="841.1458" y="946.1528"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.5513" x="859.8958" y="977.4699">Portfolio API</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="159.6436" x="859.8958" y="992.6615">Stock &amp; Transaction Data</text>
+        </g><!--entity BillsAPI-->
+        <g class="entity" data-entity="BillsAPI" data-source-line="48" data-uid="ent0026" id="entity_BillsAPI">
+            <rect fill="#707070" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="186.1694" x="1239.0625" y="946.1528"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="51.1108" x="1257.8125" y="977.4699">Bills API</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="148.6694" x="1257.8125" y="992.6615">Expense &amp; Budget Data</text>
+        </g><!--entity KeycloakAPI-->
+        <g class="entity" data-entity="KeycloakAPI" data-source-line="49" data-uid="ent0027" id="entity_KeycloakAPI">
+            <rect fill="#707070" height="67.8833" rx="4.1667" ry="4.1667" style="stroke:#33B2E2;stroke-width:1.0417;" width="128.3752" x="1074.4792" y="946.1528"/>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="55.9387" x="1093.2292" y="977.4699">Keycloak</text>
+            <text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="90.8752" x="1093.2292" y="992.6615">Authentication</text>
+        </g><!--link StandardUI to ModuleFed-->
+        <g class="link" data-entity-1="StandardUI" data-entity-2="ModuleFed" data-source-line="53" data-uid="lnk28" id="link_StandardUI_ModuleFed">
+            <path d="M746.2292,211.8403 C746.2292,253.2986 746.2292,318.0278 746.2292,318.0278 C746.2292,318.0278 683.5104,318.0278 620.3333,318.0278" fill="none" id="StandardUI-to-ModuleFed" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="614.0833,318.0278,623.4583,322.1944,619.2917,318.0278,623.4583,313.8611,614.0833,318.0278" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="161.7126" x="742.625" y="306.6366">Load Shared Components</text>
+        </g><!--link PremiumUI to ModuleFed-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="ModuleFed" data-source-line="54" data-uid="lnk29" id="link_PremiumUI_ModuleFed">
+            <path d="M1030.8333,212.0278 C1030.8333,257.2882 1030.8333,331.5694 1030.8333,331.5694 C1030.8333,331.5694 771.6771,331.5694 620.3229,331.5694" fill="none" id="PremiumUI-to-ModuleFed" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="614.0729,331.5694,623.4479,335.7361,619.2813,331.5694,623.4479,327.4028,614.0729,331.5694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="161.7126" x="891.6042" y="320.1782">Load Shared Components</text>
+        </g><!--link ModuleFed to PortfolioComponents-->
+        <g class="link" data-entity-1="ModuleFed" data-entity-2="PortfolioComponents" data-source-line="57" data-uid="lnk30" id="link_ModuleFed_PortfolioComponents">
+            <path d="M614.3333,345.1111 C732.6979,345.1111 910.9375,345.1111 910.9375,345.1111 C910.9375,345.1111 910.9375,413.1423 910.9375,458.4028" fill="none" id="ModuleFed-to-PortfolioComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="910.9375,464.6528,915.1042,455.2778,910.9375,459.4444,906.7708,455.2778,910.9375,464.6528" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="107.9102" x="705.7396" y="333.7199">Dynamic Loading</text>
+        </g><!--link ModuleFed to BillsComponents-->
+        <g class="link" data-entity-1="ModuleFed" data-entity-2="BillsComponents" data-source-line="58" data-uid="lnk31" id="link_ModuleFed_BillsComponents">
+            <path d="M614.3229,358.6528 C648.6771,358.6528 678.3854,358.6528 678.3854,358.6528 C678.3854,358.6528 678.3854,417.1319 678.3854,458.5903" fill="none" id="ModuleFed-to-BillsComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="678.3854,464.8403,682.5521,455.4653,678.3854,459.6319,674.2188,455.4653,678.3854,464.8403" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="107.9102" x="561.7188" y="401.6574">Dynamic Loading</text>
+        </g><!--link ModuleFed to CommonComponents-->
+        <g class="link" data-entity-1="ModuleFed" data-entity-2="CommonComponents" data-source-line="59" data-uid="lnk32" id="link_ModuleFed_CommonComponents">
+            <path d="M476.2188,372.3611 C476.2188,399.5798 476.2188,431.3298 476.2188,458.5382" fill="none" id="ModuleFed-to-CommonComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="476.2188,464.7882,480.3854,455.4132,476.2188,459.5798,472.0521,455.4132,476.2188,464.7882" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="107.9102" x="359.5521" y="407.1782">Dynamic Loading</text>
+        </g><!--link StandardUI to PortfolioComponents-->
+        <g class="link" data-entity-1="StandardUI" data-entity-2="PortfolioComponents" data-source-line="62" data-uid="lnk33" id="link_StandardUI_PortfolioComponents">
+            <path d="M918.75,211.9548 C918.75,273.559 918.75,396.6423 918.75,458.3403" fill="none" id="StandardUI-to-PortfolioComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="918.75,464.5903,922.9167,455.2153,918.75,459.3819,914.5833,455.2153,918.75,464.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="880.2083" y="360.2199">Uses</text>
+        </g><!--link StandardUI to BillsComponents-->
+        <g class="link" data-entity-1="StandardUI" data-entity-2="BillsComponents" data-source-line="63" data-uid="lnk34" id="link_StandardUI_BillsComponents">
+            <path d="M783.5938,211.9548 C783.5938,273.559 783.5938,396.6423 783.5938,458.3403" fill="none" id="StandardUI-to-BillsComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="783.5938,464.5903,787.7604,455.2153,783.5938,459.3819,779.4271,455.2153,783.5938,464.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="745.0521" y="360.2199">Uses</text>
+        </g><!--link StandardUI to CommonComponents-->
+        <g class="link" data-entity-1="StandardUI" data-entity-2="CommonComponents" data-source-line="64" data-uid="lnk35" id="link_StandardUI_CommonComponents">
+            <path d="M708.8229,178.4444 C667.8542,178.4444 630.9896,178.4444 630.9896,178.4444 C630.9896,178.4444 630.9896,499.2778 630.9896,499.2778 C630.9896,499.2778 629.2604,499.2778 617.3646,499.2778" fill="none" id="StandardUI-to-CommonComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="611.1146,499.2778,620.4896,503.4444,616.3229,499.2778,620.4896,495.1111,611.1146,499.2778" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="640.3646" y="298.4907">Uses</text>
+        </g><!--link PremiumUI to PortfolioComponents-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="PortfolioComponents" data-source-line="66" data-uid="lnk36" id="link_PremiumUI_PortfolioComponents">
+            <path d="M1098.125,211.9548 C1098.125,273.559 1098.125,396.6423 1098.125,458.3403" fill="none" id="PremiumUI-to-PortfolioComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1098.125,464.5903,1102.2917,455.2153,1098.125,459.3819,1093.9583,455.2153,1098.125,464.5903" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="1059.5833" y="360.2199">Uses</text>
+        </g><!--link PremiumUI to BillsComponents-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="BillsComponents" data-source-line="67" data-uid="lnk37" id="link_PremiumUI_BillsComponents">
+            <path d="M997.1875,211.8923 C997.1875,239.6319 997.1875,274.2778 997.1875,274.2778 C997.1875,274.2778 820.9583,274.2778 820.9583,274.2778 C820.9583,274.2778 820.9583,395.6111 820.9583,458.4132" fill="none" id="PremiumUI-to-BillsComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="820.9583,464.6632,825.125,455.2882,820.9583,459.4548,816.7917,455.2882,820.9583,464.6632" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="806.5313" y="262.8866">Uses</text>
+        </g><!--link PremiumUI to CommonComponents-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="CommonComponents" data-source-line="68" data-uid="lnk38" id="link_PremiumUI_CommonComponents">
+            <path d="M1064.4792,211.9653 C1064.4792,278.434 1064.4792,419.0694 1064.4792,419.0694 C1064.4792,419.0694 543.5729,419.0694 543.5729,419.0694 C543.5729,419.0694 543.5729,436.6528 543.5729,458.2465" fill="none" id="PremiumUI-to-CommonComponents" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="543.5729,464.4965,547.7396,455.1215,543.5729,459.2882,539.4063,455.1215,543.5729,464.4965" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.6204" x="894.2396" y="407.6782">Uses</text>
+        </g><!--link PortfolioComponents to PortfolioService-->
+        <g class="link" data-entity-1="PortfolioComponents" data-entity-2="PortfolioService" data-source-line="71" data-uid="lnk39" id="link_PortfolioComponents_PortfolioService">
+            <path d="M898.2604,532.7257 C898.2604,545.309 898.2604,556.5694 898.2604,556.5694 C898.2604,556.5694 132.2917,556.5694 132.2917,556.5694 C132.2917,556.5694 132.2917,589.1528 132.2917,619.0382" fill="none" id="PortfolioComponents-to-PortfolioService" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="132.2917,625.2882,136.4583,615.9132,132.2917,620.0798,128.125,615.9132,132.2917,625.2882" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="91.1987" x="502.2188" y="578.5116">Data Requests</text>
+        </g><!--link BillsComponents to BillsService-->
+        <g class="link" data-entity-1="BillsComponents" data-entity-2="BillsService" data-source-line="72" data-uid="lnk40" id="link_BillsComponents_BillsService">
+            <path d="M659.375,532.7778 C659.375,559.9965 659.375,591.7465 659.375,618.9548" fill="none" id="BillsComponents-to-BillsService" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="659.375,625.2048,663.5417,615.8298,659.375,619.9965,655.2083,615.8298,659.375,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="91.1987" x="668.75" y="567.5949">Data Requests</text>
+        </g><!--link CommonComponents to AuthService-->
+        <g class="link" data-entity-1="CommonComponents" data-entity-2="AuthService" data-source-line="73" data-uid="lnk41" id="link_CommonComponents_AuthService">
+            <path d="M419.7917,532.7778 C419.7917,559.9965 419.7917,591.7465 419.7917,618.9548" fill="none" id="CommonComponents-to-AuthService" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="419.7917,625.2048,423.9583,615.8298,419.7917,619.9965,415.625,615.8298,419.7917,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="90.8752" x="319.7917" y="567.5949">Authentication</text>
+        </g><!--link PortfolioService to RxJS-->
+        <g class="link" data-entity-1="PortfolioService" data-entity-2="RxJS" data-source-line="76" data-uid="lnk42" id="link_PortfolioService_RxJS">
+            <path d="M112.5,693.0903 C112.5,726.7048 112.5,773.2361 112.5,773.2361 C112.5,773.2361 808.3333,773.2361 808.3333,773.2361 C808.3333,773.2361 808.3333,772.2153 808.3333,779.1632" fill="none" id="PortfolioService-to-RxJS" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="808.3333,785.4132,812.5,776.0382,808.3333,780.2048,804.1667,776.0382,808.3333,785.4132" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="127.3132" x="289.9688" y="761.8449">Observable Streams</text>
+        </g><!--link BillsService to RxJS-->
+        <g class="link" data-entity-1="BillsService" data-entity-2="RxJS" data-source-line="77" data-uid="lnk43" id="link_BillsService_RxJS">
+            <path d="M621.3542,693.0903 C621.3542,737.1944 621.3542,808.6528 621.3542,808.6528 C621.3542,808.6528 672.2292,808.6528 723.3333,808.6528" fill="none" id="BillsService-to-RxJS" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="729.5833,808.6528,720.2083,804.4861,724.375,808.6528,720.2083,812.8194,729.5833,808.6528" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="127.3132" x="484.8958" y="793.5949">Observable Streams</text>
+        </g><!--link AuthService to RxJS-->
+        <g class="link" data-entity-1="AuthService" data-entity-2="RxJS" data-source-line="78" data-uid="lnk44" id="link_AuthService_RxJS">
+            <path d="M436.0208,659.6944 C447.5208,659.6944 455.4688,659.6944 455.4688,659.6944 C455.4688,659.6944 455.4688,831.5694 455.4688,831.5694 C455.4688,831.5694 619.3333,831.5694 723.3333,831.5694" fill="none" id="AuthService-to-RxJS" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="729.5833,831.5694,720.2083,827.4028,724.375,831.5694,720.2083,835.7361,729.5833,831.5694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="127.3132" x="506.2396" y="853.5116">Observable Streams</text>
+        </g><!--link PortfolioService to HttpClient-->
+        <g class="link" data-entity-1="PortfolioService" data-entity-2="HttpClient" data-source-line="79" data-uid="lnk45" id="link_PortfolioService_HttpClient">
+            <path d="M152.0833,693.2048 C152.0833,722.3715 152.0833,759.6944 152.0833,759.6944 C152.0833,759.6944 928.25,759.6944 928.25,759.6944 C928.25,759.6944 928.25,765.7465 928.25,779.1944" fill="none" id="PortfolioService-to-HttpClient" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="928.25,785.4444,932.4167,776.0694,928.25,780.2361,924.0833,776.0694,928.25,785.4444" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="66.3391" x="444.8021" y="748.3032">HTTP Calls</text>
+        </g><!--link BillsService to HttpClient-->
+        <g class="link" data-entity-1="BillsService" data-entity-2="HttpClient" data-source-line="80" data-uid="lnk46" id="link_BillsService_HttpClient">
+            <path d="M522.3958,693.3611 C522.3958,712.9444 522.3958,733.6528 522.3958,733.6528 C522.3958,733.6528 936.8542,733.6528 936.8542,733.6528 C936.8542,733.6528 936.8542,755.3507 936.8542,779.3715" fill="none" id="BillsService-to-HttpClient" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="936.8542,785.6215,941.0208,776.2465,936.8542,780.4132,932.6875,776.2465,936.8542,785.6215" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="66.3391" x="660.4583" y="722.2616">HTTP Calls</text>
+        </g><!--link AuthService to HttpClient-->
+        <g class="link" data-entity-1="AuthService" data-entity-2="HttpClient" data-source-line="81" data-uid="lnk47" id="link_AuthService_HttpClient">
+            <path d="M339.4063,693.0486 C339.4063,717.4757 339.4063,746.1528 339.4063,746.1528 C339.4063,746.1528 932.5521,746.1528 932.5521,746.1528 C932.5521,746.1528 932.5521,760.0278 932.5521,779.2048" fill="none" id="AuthService-to-HttpClient" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="932.5521,785.4548,936.7188,776.0798,932.5521,780.2465,928.3854,776.0798,932.5521,785.4548" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="66.3391" x="554.0833" y="734.7616">HTTP Calls</text>
+        </g><!--link PortfolioService to PortfolioAPI-->
+        <g class="link" data-entity-1="PortfolioService" data-entity-2="PortfolioAPI" data-source-line="84" data-uid="lnk48" id="link_PortfolioService_PortfolioAPI">
+            <path d="M72.9167,693.2257 C72.9167,778.0486 72.9167,991.9861 72.9167,991.9861 C72.9167,991.9861 607.6042,991.9861 834.7604,991.9861" fill="none" id="PortfolioService-to-PortfolioAPI" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="841.0104,991.9861,831.6354,987.8194,835.8021,991.9861,831.6354,996.1528,841.0104,991.9861" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.5815" x="239.875" y="980.5949">REST API</text>
+        </g><!--link BillsService to BillsAPI-->
+        <g class="link" data-entity-1="BillsService" data-entity-2="BillsAPI" data-source-line="85" data-uid="lnk49" id="link_BillsService_BillsAPI">
+            <path d="M571.875,693.1111 C571.875,700.7153 571.875,706.5694 571.875,706.5694 C571.875,706.5694 1244.5313,706.5694 1244.5313,706.5694 C1244.5313,706.5694 1244.5313,866.3819 1244.5313,939.6736" fill="none" id="BillsService-to-BillsAPI" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1244.5313,945.9236,1248.6979,936.5486,1244.5313,940.7153,1240.3646,936.5486,1244.5313,945.9236" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="58.5815" x="1030.5313" y="728.5116">REST API</text>
+        </g><!--link AuthService to KeycloakAPI-->
+        <g class="link" data-entity-1="AuthService" data-entity-2="KeycloakAPI" data-source-line="86" data-uid="lnk50" id="link_AuthService_KeycloakAPI">
+            <path d="M387.6771,693.2048 C387.6771,707.1632 387.6771,720.1111 387.6771,720.1111 C387.6771,720.1111 1087.2396,720.1111 1087.2396,720.1111 C1087.2396,720.1111 1087.2396,869.3298 1087.2396,939.7778" fill="none" id="AuthService-to-KeycloakAPI" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1087.2396,946.0278,1091.4063,936.6528,1087.2396,940.8194,1083.0729,936.6528,1087.2396,946.0278" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="86.2122" x="742.1667" y="742.0532">OAuth2/OIDC</text>
+        </g><!--link StandardUI to Angular-->
+        <g class="link" data-entity-1="StandardUI" data-entity-2="Angular" data-source-line="89" data-uid="lnk51" id="link_StandardUI_Angular">
+            <path d="M903.125,211.9965 C903.125,227.7569 903.125,243.0278 903.125,243.0278 C903.125,243.0278 1342.8854,243.0278 1342.8854,243.0278 C1342.8854,243.0278 1342.8854,519.4757 1342.8854,618.8715" fill="none" id="StandardUI-to-Angular" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1342.8854,625.1215,1347.0521,615.7465,1342.8854,619.9132,1338.7188,615.7465,1342.8854,625.1215" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50.4089" x="1239.1563" y="231.6366">Built On</text>
+        </g><!--link PremiumUI to Angular-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="Angular" data-source-line="90" data-uid="lnk52" id="link_PremiumUI_Angular">
+            <path d="M1226.3646,178.4444 C1308.5208,178.4444 1398.7813,178.4444 1398.7813,178.4444 C1398.7813,178.4444 1398.7813,508.9132 1398.7813,618.7361" fill="none" id="PremiumUI-to-Angular" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1398.7813,624.9861,1402.9479,615.6111,1398.7813,619.7778,1394.6146,615.6111,1398.7813,624.9861" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50.4089" x="1339.4063" y="304.1157">Built On</text>
+        </g><!--link PortfolioComponents to PrimeNG-->
+        <g class="link" data-entity-1="PortfolioComponents" data-entity-2="PrimeNG" data-source-line="91" data-uid="lnk53" id="link_PortfolioComponents_PrimeNG">
+            <path d="M901.2188,532.7778 C901.2188,559.9965 901.2188,591.7465 901.2188,618.9548" fill="none" id="PortfolioComponents-to-PrimeNG" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="901.2188,625.2048,905.3854,615.8298,901.2188,619.9965,897.0521,615.8298,901.2188,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.5381" x="815.8021" y="567.5949">UI Elements</text>
+        </g><!--link BillsComponents to PrimeNG-->
+        <g class="link" data-entity-1="BillsComponents" data-entity-2="PrimeNG" data-source-line="92" data-uid="lnk54" id="link_BillsComponents_PrimeNG">
+            <path d="M793.75,532.7778 C793.75,559.9965 793.75,591.7465 793.75,618.9548" fill="none" id="BillsComponents-to-PrimeNG" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="793.75,625.2048,797.9167,615.8298,793.75,619.9965,789.5833,615.8298,793.75,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.5381" x="708.3333" y="600.9282">UI Elements</text>
+        </g><!--link CommonComponents to PrimeNG-->
+        <g class="link" data-entity-1="CommonComponents" data-entity-2="PrimeNG" data-source-line="93" data-uid="lnk55" id="link_CommonComponents_PrimeNG">
+            <path d="M541.9271,532.6944 C541.9271,562.9236 541.9271,602.4028 541.9271,602.4028 C541.9271,602.4028 761.4583,602.4028 761.4583,602.4028 C761.4583,602.4028 761.4583,606.8298 761.4583,618.9132" fill="none" id="CommonComponents-to-PrimeNG" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="761.4583,625.1632,765.625,615.7882,761.4583,619.9548,757.2917,615.7882,761.4583,625.1632" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="76.5381" x="637.5938" y="624.3449">UI Elements</text>
+        </g><!--link PortfolioComponents to Tailwind-->
+        <g class="link" data-entity-1="PortfolioComponents" data-entity-2="Tailwind" data-source-line="94" data-uid="lnk56" id="link_PortfolioComponents_Tailwind">
+            <path d="M1022.3958,532.7778 C1022.3958,559.9965 1022.3958,591.7465 1022.3958,618.9548" fill="none" id="PortfolioComponents-to-Tailwind" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1022.3958,625.2048,1026.5625,615.8298,1022.3958,619.9965,1018.2292,615.8298,1022.3958,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="43.4265" x="970.3125" y="567.5949">Styling</text>
+        </g><!--link BillsComponents to Tailwind-->
+        <g class="link" data-entity-1="BillsComponents" data-entity-2="Tailwind" data-source-line="95" data-uid="lnk57" id="link_BillsComponents_Tailwind">
+            <path d="M826.0417,532.9965 C826.0417,554.9965 826.0417,579.4861 826.0417,579.4861 C826.0417,579.4861 981.7708,579.4861 981.7708,579.4861 C981.7708,579.4861 981.7708,597.0694 981.7708,618.6632" fill="none" id="BillsComponents-to-Tailwind" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="981.7708,624.9132,985.9375,615.5382,981.7708,619.7048,977.6042,615.5382,981.7708,624.9132" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="43.4265" x="851.2917" y="601.4282">Styling</text>
+        </g><!--link PortfolioComponents to ChartJS-->
+        <g class="link" data-entity-1="PortfolioComponents" data-entity-2="ChartJS" data-source-line="96" data-uid="lnk58" id="link_PortfolioComponents_ChartJS">
+            <path d="M1115.8854,532.7778 C1115.8854,559.9965 1115.8854,591.7465 1115.8854,618.9548" fill="none" id="PortfolioComponents-to-ChartJS" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1115.8854,625.2048,1120.0521,615.8298,1115.8854,619.9965,1111.7188,615.8298,1115.8854,625.2048" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="40.918" x="1125.2604" y="567.5949">Charts</text>
+        </g><!--link PremiumUI to ChartJS-->
+        <g class="link" data-entity-1="PremiumUI" data-entity-2="ChartJS" data-source-line="97" data-uid="lnk59" id="link_PremiumUI_ChartJS">
+            <path d="M1178.9063,212.1528 C1178.9063,300.7257 1178.9063,530.4861 1178.9063,618.8715" fill="none" id="PremiumUI-to-ChartJS" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="1178.9063,625.1215,1183.0729,615.7465,1178.9063,619.9132,1174.7396,615.7465,1178.9063,625.1215" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="106.2073" x="1064.3229" y="407.2407">Advanced Charts</text>
+        </g><!--link PortfolioService to GrpcClient-->
+        <g class="link" data-entity-1="PortfolioService" data-entity-2="GrpcClient" data-source-line="100" data-uid="lnk60" id="link_PortfolioService_GrpcClient">
+            <path d="M191.6667,693.309 C191.6667,740.5486 191.6667,820.1111 191.6667,820.1111 C191.6667,820.1111 237.5,820.1111 284.5,820.1111" fill="none" id="PortfolioService-to-GrpcClient" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="290.75,820.1111,281.375,815.9444,285.5417,820.1111,281.375,824.2778,290.75,820.1111" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="110.8765" x="71.875" y="794.8553">Progress Streams</text>
+        </g><!--link GrpcClient to PortfolioAPI-->
+        <g class="link" data-entity-1="GrpcClient" data-entity-2="PortfolioAPI" data-source-line="101" data-uid="lnk61" id="link_GrpcClient_PortfolioAPI">
+            <path d="M364.5833,853.5069 C364.5833,897.6111 364.5833,969.0694 364.5833,969.0694 C364.5833,969.0694 670.5,969.0694 834.8125,969.0694" fill="none" id="GrpcClient-to-PortfolioAPI" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <polygon fill="#D0D0D0" points="841.0625,969.0694,831.6875,964.9028,835.8542,969.0694,831.6875,973.2361,841.0625,969.0694" style="stroke:#D0D0D0;stroke-width:1.0417;"/>
+            <text fill="#909090" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="32.7454" x="503.375" y="957.6782">gRPC</text>
+        </g><!--SRC=[ZLTDSzis4BtpLsoZ6UTYjsx6jHiUEgFFMAqJQ_JHIzK3JC4KAX1WGL2Askb_xm8a9P045Oyk6k7jsyV5xblgExsb2OKNdjDOaMEGxPX8YI89H399fQ12B_IHKr0qqaJ4d3eGpWJLnvI2L7ehdGEYb3mijopQ2Pfby6CpndjYWuQIImMzqQtvDCAwpcpWH0fT0ZxUcayGQAPH-ECnbVYGcaM4mqBBQ9V13KmKugdOG5z5MwRnuN95Wo0bqOx45DwjCgfW_3MbYb4HKNWYHwhUmRy1d0i3Voom91kYDh2QhiKCg_0gEPDm1GF6UGQVYK2o1A5_0icWGg-cq7lu-FFzS51dcocQi3onP6En9PWNzGd2ZoW-GzRVMPOJpluXcacHMSuong7yptcAptAJOmacT4EL3O97cUdMOxHWQx7O4eNPXoVGaoHuQdCMS4H3x_vkyDFalfQp6PcrqfqBTGPXHdCryCGoVGr3vD3PDImL4Hc9dCUjGi-Hq9jCFZpSZUevYWjm-SrbYeoM6GRv9gOQAqeF1RCD-1OhdYTOH9Vs2zcps1Rj6YPI9QXwn0YNSK5RH7XuQoMZQiywcymf5sVcbnA-5lFnOWdzsTHcoGLskD5HBrJ5ZLFHl-kFlLLwEwqDk4ZPp_NsJFKRFKPSaXrCSTfYTIOoi8iyyNmsB9NXQ2aPA-CNgtH3D2rA-qcbKIczOgWLLIFI6S5MNUTVVrt0ymiE-fwyS8ftEQUcr_OKHaGJc71vi8aiq2loSRcSdKIQYitftpdDT27mKUlqWa2SsGdQ5pr8jMk9wuiuvqIT4MlXp29xfH4MbXQbBA4Tdi8I-kLJhMNdBDgYoS2Osy9KHb80lInBmlY1eLiE5ukrM6d6cJw2MGnCn3RyXF36std-_Y_CRIjRyx5YJ0p0LDbZOWFyOfowR9TBVe9NK1d9bMiUzaBhSs5kg_TmQpw-cR1CbMLSLNPneh6WJeggwx4diCtn9tU4gaCt6X_tFJHNZfRGCkR0sI4tDxyuLXnQXuQM-mRd3V7609JItXiefeqyanbgdpU7C3eAah389iDcQSGqNVTR-9QTjWDC9QVGJrDULZqpuXtLZHBwPUDbj91jiJwKHwA5DIxYGjewi2Dh7TIPzBtpvFOIoo4AVFbhkYft3With9mjQEevQUmAQ6ap4Qx_Xr0V4wEwqcarDvmyQ6aqZDQbGyVGCKvHafIAtmPrPLr6UZKuZXz2iHm8vcuhw08sytVX6XKgBT8lgcPv8LJRlItgP6eEg2d8TI-iYpd-yCFpT3Giv-wqhvfZKMsf4BsKSGtFej72Fa1NZvQxAdItcBSn_KXlH_gXNH9E-owirg0tlmVMnLYjmB1y-srE-EculzaNVmrA71RUlYozud-VvekIloESDwVm759rjdFgQH-JAlWV]-->
+    </g>
+</svg>

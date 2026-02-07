@@ -1,0 +1,90 @@
+@startuml Architecture Diagram
+!theme bluegray
+skinparam componentStyle rectangle
+skinparam linetype ortho
+skinparam arrowThickness 1
+skinparam linethickness 1
+skinparam arrowColor #D0D0D0
+skinparam lineColor #D0D0D0
+skinparam arrowFontColor #909090
+
+title Hypothetical Stocks - System Architecture
+
+package "User Interface Layer" {
+  component [Standard UI\nAngular + Tailwind] as StandardUI #7986CB
+  component [Premium UI\nAngular + PrimeNG] as PremiumUI #7986CB
+  component [Module Federation\nHost] as ModuleFed #64B5F6
+}
+
+package "API Gateway Layer" {
+  component [Envoy Proxy\nRouting & Load Balancing] as Envoy #64B5F6
+  component [Nginx\nSSL Termination] as Nginx #64B5F6
+}
+
+package "Business Logic Layer" {
+  component [Portfolio Service\nStock Tracking & Analytics] as Portfolio #FF274D
+  component [Bills Service\nExpense Management] as Bills #FF274D
+  component [Loans Service\nLoan Tracking] as Loans #FF274D
+  component [House Comparison\nReal Estate Analysis] as HouseComp #FF274D
+  component [Profile Service\nUser Management] as Profile #FF274D
+}
+
+package "Data Layer" {
+  database [MongoDB\nDocument Store] as MongoDB #7986CB
+}
+
+package "External Integration Layer" {
+  component [MarketStack API\nHistorical Prices] as MarketStack #90A4AE
+  component [RealStonks API\nReal-time Prices] as RealStonks #90A4AE
+  component [Stock Scraper\nFallback Provider] as StockScraper #90A4AE
+}
+
+package "Infrastructure Services" {
+  component [Keycloak\nAuthentication & Authorization] as Keycloak #90A4AE
+  component [Airflow\nData Orchestration] as Airflow #90A4AE
+  component [Vault\nSecrets Management] as Vault #90A4AE
+}
+
+' User Interface to API Gateway
+StandardUI --> Envoy : HTTP/HTTPS
+PremiumUI --> Envoy : HTTP/HTTPS
+ModuleFed --> Envoy : HTTP/HTTPS
+
+' API Gateway to Services
+Envoy --> Nginx : Internal Routing
+Nginx --> Portfolio : HTTP
+Nginx --> Bills : HTTP
+Nginx --> Loans : HTTP
+Nginx --> HouseComp : HTTP
+Nginx --> Profile : HTTP
+
+' Services to Data Layer
+Portfolio --> MongoDB : Reactive Queries
+Bills --> MongoDB : Reactive Queries
+Loans --> MongoDB : Reactive Queries
+HouseComp --> MongoDB : Reactive Queries
+Profile --> MongoDB : Reactive Queries
+
+' Services to External APIs
+Portfolio --> MarketStack : REST API
+Portfolio --> RealStonks : REST API
+Portfolio --> StockScraper : REST API
+
+' Services to Infrastructure
+Portfolio --> Keycloak : OAuth2 JWT
+Bills --> Keycloak : OAuth2 JWT
+Loans --> Keycloak : OAuth2 JWT
+HouseComp --> Keycloak : OAuth2 JWT
+Profile --> Keycloak : OAuth2 JWT
+
+Airflow --> MongoDB : Scheduled Backups
+Airflow --> Portfolio : Trigger Updates
+
+Portfolio --> Vault : Secrets
+Bills --> Vault : Secrets
+
+' Module Federation
+ModuleFed --> StandardUI : Shared Components
+ModuleFed --> PremiumUI : Shared Components
+
+@enduml

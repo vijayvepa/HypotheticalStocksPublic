@@ -1,0 +1,116 @@
+@startuml Product Overview Diagram
+!theme bluegray
+skinparam componentStyle rectangle
+skinparam linetype ortho
+skinparam arrowThickness 1
+skinparam linethickness 1
+skinparam arrowColor #D0D0D0
+skinparam lineColor #D0D0D0
+skinparam arrowFontColor #909090
+skinparam actorStyle awesome
+
+title Hypothetical Stocks - Product Overview
+
+actor "Investment Enthusiast" as Investor #7986CB
+actor "Budget-Conscious User" as BudgetUser #7986CB
+actor "Financial Planner" as Planner #7986CB
+
+package "Core Product Value" {
+  component [Risk-Free Investment\nValidation] as RiskFree #FF274D
+  component [Unified Financial\nDashboard] as Dashboard #FF274D
+  component [Real-Time Market\nData Integration] as MarketData #FF274D
+  component [Intelligent Expense\nManagement] as ExpenseMgmt #FF274D
+}
+
+package "Portfolio Management" {
+  component [Hypothetical Stock\nTracking] as StockTracking #64B5F6
+  component [Performance Analytics\n& Charts] as Analytics #64B5F6
+  component [Buy/Sell Indicator\nAlerts] as Alerts #64B5F6
+  component [Transaction History\n& Audit Trail] as History #64B5F6
+}
+
+package "Expense Management" {
+  component [CSV Import\n& Auto-Categorization] as CSVImport #90A4AE
+  component [Monthly Budget\nTracking] as Budget #90A4AE
+  component [Spending Pattern\nAnalysis] as Patterns #90A4AE
+  component [Year-over-Year\nComparisons] as YoY #90A4AE
+}
+
+package "Financial Planning" {
+  component [Loan Tracking\n& Amortization] as Loans #90A4AE
+  component [House Comparison\nwith Mortgages] as RealEstate #90A4AE
+  component [Multi-Domain\nFinancial View] as MultiDomain #90A4AE
+}
+
+package "Data Sources" {
+  database "MarketStack API\nHistorical Prices" as MarketStack #707070
+  database "RealStonks API\nReal-time Prices" as RealStonks #707070
+  database "Analyst Targets\n& Market Data" as AnalystData #707070
+}
+
+' User to Core Value
+Investor --> RiskFree : Test Strategies\nWithout Risk
+BudgetUser --> Dashboard : Single View\nof Finances
+Planner --> MarketData : Data-Driven\nDecisions
+BudgetUser --> ExpenseMgmt : Understand\nSpending
+
+' Core Value to Features
+RiskFree --> StockTracking : Enables
+RiskFree --> Analytics : Provides
+Dashboard --> StockTracking : Includes
+Dashboard --> Budget : Includes
+Dashboard --> Loans : Includes
+MarketData --> Alerts : Powers
+ExpenseMgmt --> CSVImport : Uses
+ExpenseMgmt --> Patterns : Generates
+
+' Investment Enthusiast Journey
+Investor --> StockTracking : Add Stocks\nTrack Performance
+StockTracking --> Analytics : View Returns\nRisk Metrics
+Analytics --> Alerts : Get Notifications\nTarget Prices
+Alerts --> History : Review Decisions
+
+' Budget-Conscious User Journey
+BudgetUser --> CSVImport : Import Bank\nStatements
+CSVImport --> Budget : Auto-Categorize\nExpenses
+Budget --> Patterns : Identify Trends
+Patterns --> YoY : Compare Periods
+
+' Financial Planner Journey
+Planner --> StockTracking : Track Portfolios
+Planner --> Budget : Monitor Expenses
+Planner --> Loans : Track Obligations
+Planner --> RealEstate : Compare Properties
+StockTracking --> MultiDomain : Combined View
+Budget --> MultiDomain : Combined View
+Loans --> MultiDomain : Combined View
+RealEstate --> MultiDomain : Combined View
+
+' Data Sources to Features
+MarketStack --> StockTracking : Price History
+RealStonks --> StockTracking : Current Prices
+AnalystData --> Alerts : Target Prices
+MarketStack --> Analytics : Historical Data
+
+note right of RiskFree
+  **Key Differentiator**
+  Test investment strategies
+  without committing capital
+  Learn from real market data
+end note
+
+note right of Dashboard
+  **Unified Experience**
+  Investments + Expenses
+  + Loans + Real Estate
+  All in one view
+end note
+
+note right of ExpenseMgmt
+  **Intelligent Automation**
+  Learns from user behavior
+  Auto-categorizes expenses
+  Identifies patterns
+end note
+
+@enduml

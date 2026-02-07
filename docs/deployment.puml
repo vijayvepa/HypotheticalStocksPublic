@@ -1,0 +1,144 @@
+@startuml Deployment Diagram
+!theme bluegray
+skinparam componentStyle rectangle
+skinparam linetype ortho
+skinparam arrowThickness 1
+skinparam linethickness 1
+skinparam arrowColor #D0D0D0
+skinparam lineColor #D0D0D0
+skinparam arrowFontColor #909090
+
+title Hypothetical Stocks - Deployment Architecture
+
+cloud "Internet" as Internet #E0E0E0
+
+node "Docker Host" as DockerHost  {
+  artifact "Docker Network\nvijayvepa" as Network #64B5F6
+  
+  package "Frontend Containers" as FrontendPkg {
+    artifact "portfolio-ui\nAngular App" as PortfolioUI #FF274D
+    artifact "portfolio-prestige-ui\nPremium Angular App" as PrestigeUI #FF274D
+    artifact "modfed\nModule Federation" as ModFed #FF274D
+
+    ' Vertical alignment inside package
+    PortfolioUI -[hidden]-> PrestigeUI
+    PrestigeUI -[hidden]-> ModFed
+  }
+  
+  package "Infrastructure Containers" as InfraPkg {
+    artifact "nginx\nReverse Proxy" as Nginx #E0E0E0
+    artifact "envoy\nService Mesh" as Envoy #E0E0E0
+    artifact "keycloak\nIdentity Provider" as Keycloak #E0E0E0
+    artifact "airflow\nWorkflow Orchestrator" as Airflow #E0E0E0
+    artifact "vault\nSecrets Manager" as Vault #E0E0E0
+
+    ' Vertical alignment inside package
+    Nginx -[hidden]-> Envoy
+    Envoy -[hidden]-> Keycloak
+    Keycloak -[hidden]-> Airflow
+    Airflow -[hidden]-> Vault
+  }
+
+  package "Backend Containers" as BackendPkg {
+    artifact "portfolio-service\nSpring Boot" as PortfolioSvc #FF274D
+    artifact "bills-service\nSpring Boot" as BillsSvc #FF274D
+    artifact "loans-service\nSpring Boot" as LoansSvc #FF274D
+    artifact "house-comparison-service\nSpring Boot" as HouseSvc #FF274D
+    artifact "profile-service\nSpring Boot" as ProfileSvc #FF274D
+    artifact "stock-scraper\nNode.js" as StockScraper #FF274D
+
+    ' Vertical alignment inside package
+    PortfolioSvc -[hidden]-> BillsSvc
+    BillsSvc -[hidden]-> LoansSvc
+    LoansSvc -[hidden]-> HouseSvc
+    HouseSvc -[hidden]-> ProfileSvc
+    ProfileSvc -[hidden]-> StockScraper
+  }
+  
+  database "MongoDB\nDocument Database" as MongoDB #7986CB {
+    storage "Time-Series Collections\nStock Price History" as TimeSeries #64B5F6
+    storage "Document Collections\nTransactions, Expenses" as Documents #64B5F6
+
+    TimeSeries -[hidden]-> Documents
+  }
+}
+
+cloud "External APIs" as ExternalAPIs #E0E0E0 {
+  database "MarketStack API" as MarketStack #90A4AE
+  database "RealStonks API" as RealStonks #90A4AE
+}
+
+cloud "Container Registry" as Registry #E0E0E0 {
+  artifact "GHCR\nGitHub Container Registry" as GHCR #90A4AE
+}
+
+' External connections
+Internet --> Nginx : HTTPS (Port 443)
+Internet --> Keycloak : OAuth2/OIDC
+
+' Internal routing
+Nginx --> Envoy : HTTP
+Envoy --> PortfolioSvc : HTTP
+Envoy --> BillsSvc : HTTP
+Envoy --> LoansSvc : HTTP
+Envoy --> HouseSvc : HTTP
+Envoy --> ProfileSvc : HTTP
+
+' Frontend to Backend
+PortfolioUI --> Nginx : HTTP
+PrestigeUI --> Nginx : HTTP
+ModFed --> Nginx : HTTP
+
+' Backend to Database
+PortfolioSvc --> MongoDB : Reactive Driver
+BillsSvc --> MongoDB : Reactive Driver
+LoansSvc --> MongoDB : Reactive Driver
+HouseSvc --> MongoDB : Reactive Driver
+ProfileSvc --> MongoDB : Reactive Driver
+
+' Backend to External APIs
+PortfolioSvc --> MarketStack : REST API
+PortfolioSvc --> RealStonks : REST API
+PortfolioSvc --> StockScraper : REST API
+
+' Infrastructure connections
+PortfolioSvc --> Keycloak : OAuth2 JWT
+BillsSvc --> Keycloak : OAuth2 JWT
+LoansSvc --> Keycloak : OAuth2 JWT
+HouseSvc --> Keycloak : OAuth2 JWT
+ProfileSvc --> Keycloak : OAuth2 JWT
+
+Airflow --> MongoDB : Scheduled Backups
+Airflow --> PortfolioSvc : Trigger Updates
+
+PortfolioSvc --> Vault : Secrets
+BillsSvc --> Vault : Secrets
+
+' Container registry
+DockerHost --> GHCR : Pull Images
+GHCR --> DockerHost : Push Images
+
+' Network
+PortfolioUI ..> Network : Docker Network
+PrestigeUI ..> Network : Docker Network
+ModFed ..> Network : Docker Network
+PortfolioSvc ..> Network : Docker Network
+BillsSvc ..> Network : Docker Network
+LoansSvc ..> Network : Docker Network
+HouseSvc ..> Network : Docker Network
+ProfileSvc ..> Network : Docker Network
+Nginx ..> Network : Docker Network
+Envoy ..> Network : Docker Network
+Keycloak ..> Network : Docker Network
+MongoDB ..> Network : Docker Network
+
+' Layout hints for vertical alignment
+Internet -[hidden]-> Network
+Network -[hidden]-> FrontendPkg
+FrontendPkg -[hidden]-> InfraPkg
+InfraPkg -[hidden]-> BackendPkg
+BackendPkg -[hidden]-> MongoDB
+MongoDB -[hidden]-> ExternalAPIs
+ExternalAPIs -[hidden]-> Registry
+
+@enduml
