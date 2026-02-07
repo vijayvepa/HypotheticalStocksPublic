@@ -2,8 +2,6 @@
 
 A comprehensive personal finance management platform that enables users to track investment portfolios, manage expenses, and make informed financial decisions through real-time market data integration and intuitive analytics.
 
-Note: The full source code is available in a private repository: https://github.com/vijayvepa/HypotheticalStocks — access available upon request.
-
 ## Purpose
 
 Hypothetical Stocks addresses the challenge of fragmented personal finance management by providing a unified platform for tracking investments, monitoring expenses, and analyzing financial performance. The system integrates multiple external data sources to deliver real-time stock prices, analyst targets, and market insights, enabling users to make data-driven investment decisions. Unlike traditional portfolio trackers, this platform emphasizes hypothetical trading scenarios—allowing users to track "what-if" investments without actual capital commitment, while providing comprehensive analytics on potential returns, risk assessment, and performance metrics.
@@ -364,3 +362,7 @@ This project demonstrates **full-stack engineering capabilities** across modern 
 | **July 2025** | Loans micro-frontend implementation with Next.js |
 | **September 2025** | Apache Airflow integration for data orchestration, automated exports, scheduled backups |
 | **October 2025** | Theme persistence and user preferences management |
+
+---
+
+Note: The full source code is available in a private repository: https://github.com/vijayvepa/HypotheticalStocks — access available upon request.
