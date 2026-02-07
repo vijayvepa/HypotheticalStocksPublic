@@ -2,7 +2,7 @@
 
 A comprehensive personal finance management platform that enables users to track investment portfolios, manage expenses, and make informed financial decisions through real-time market data integration and intuitive analytics.
 
-NOTE:  Full Code available in a [Private Repo](https://github.com/vijayvepa/HypotheticalStocks)., available upon request.
+Note: The full source code is available in a private repository: https://github.com/vijayvepa/HypotheticalStocks — access available upon request.
 
 ## Purpose
 
